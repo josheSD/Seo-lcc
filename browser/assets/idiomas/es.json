@@ -1,0 +1,1115 @@
+{
+    "HOME": {
+    "MostrarPalabra": { },
+    "FondoPalabra": {
+    "TextoTemporal": "El mejor espacio de trabajo\npara la comunidad del\ncomercio internacional.",
+    "TextoPublicada": "El mejor espacio de trabajo\npara la comunidad del\ncomercio internacional."
+    },
+    "Titulo": {
+    "TextoTemporal": "Ven y conoce el espacio ideal para\nhacer mas eficiente tu negocio.",
+    "TextoPublicada": "Ven y conoce el espacio ideal para\nhacer mas eficiente tu negocio."
+    },
+    "SubTitulo1": {
+    "TextoTemporal": "Espacios",
+    "TextoPublicada": "Espacios"
+    },
+    "SubContent1": {
+    "TextoTemporal": "Tenemos espacios de trabajo 100% implementados y diseñados para tu operación. Ven y reserva tu espacio en la primera comunidad del comercio internacional del país.",
+    "TextoPublicada": "Tenemos espacios de trabajo 100% implementados y diseñados para tu operación. Ven y reserva tu espacio en la primera comunidad del comercio internacional del país."
+    },
+    "SubButton1": {
+    "TextoTemporal": "Conoce más",
+    "TextoPublicada": "Conoce más"
+    },
+    "SubTitulo2": {
+    "TextoTemporal": "Salas",
+    "TextoPublicada": "Salas"
+    },
+    "SubContent2": {
+    "TextoTemporal": "Contamos con salas de reuniones, de capacitaciones y una de directorio diseñadas, para tener la mejor experiencia de trabajo con tu equipo y tus clientes.",
+    "TextoPublicada": "Contamos con salas de reuniones, de capacitaciones y una de directorio diseñadas, para tener la mejor experiencia de trabajo con tu equipo y tus clientes."
+    },
+    "SubButton2": {
+    "TextoTemporal": "Conoce más",
+    "TextoPublicada": "Conoce más"
+    },
+    "ComunidadTitulo": {
+    "TextoTemporal": "Comunidad",
+    "TextoPublicada": "Comunidad"
+    },
+    "ComunidadContent": {
+    "TextoTemporal": "Buscamos brindarle el espacio ideal para que en comunidad nuestros clientes aumenten sus oportunidades comerciales, optimicen sus operaciones y juntos compartan las mejores prácticas para el éxito en el comercio internacional",
+    "TextoPublicada": "Buscamos brindarle el espacio ideal para que en comunidad nuestros clientes aumenten sus oportunidades comerciales, optimicen sus operaciones y juntos compartan las mejores prácticas para el éxito en el comercio internacional"
+    },
+    "ComunidadSubTitulo1": {
+    "TextoTemporal": "Operadores Logísticos",
+    "TextoPublicada": "Operadores Logísticos"
+    },
+    "ComunidadSubContent1": { },
+    "ComunidadSubTitulo2": {
+    "TextoTemporal": "Exportadores / Importadores",
+    "TextoPublicada": "Exportadores / Importadores"
+    },
+    "ComunidadSubContent2": {
+    "TextoTemporal": "nuevo",
+    "TextoPublicada": "nuevo"
+    },
+    "ComunidadSubTitulo3": {
+    "TextoTemporal": "Otras Instituciones",
+    "TextoPublicada": "Otras Instituciones"
+    },
+    "ComunidadSubContent3": {
+    "TextoTemporal": "2cab1aa3-53cd-4623-9b18-0f16e10a13db-152.jpg",
+    "TextoPublicada": "2cab1aa3-53cd-4623-9b18-0f16e10a13db-152.jpg"
+    },
+    "BeneficioTitulo": {
+    "TextoTemporal": "Beneficios",
+    "TextoPublicada": "Beneficios"
+    },
+    "BeneficioSubTitulo1": {
+    "TextoTemporal": "Ubicación estratégica",
+    "TextoPublicada": "Ubicación estratégica"
+    },
+    "BeneficioSubContent1": {
+    "TextoTemporal": "Estamos en Lima Cargo City, una posición privilegiada con conexión directa a la rampa del Aeropuerto Internacional Jorge Chávez.",
+    "TextoPublicada": "Estamos en Lima Cargo City, una posición privilegiada con conexión directa a la rampa del Aeropuerto Internacional Jorge Chávez."
+    },
+    "BeneficioSubTitulo2": {
+    "TextoTemporal": "Networking",
+    "TextoPublicada": "Networking"
+    },
+    "BeneficioSubContent2": {
+    "TextoTemporal": "LCC Espacios te permitirá ampliar tu red de contactos y relacionarte con los principales actores del comercio internacional, tales como agencias de carga, aduanas, exportadores, importadores, certificadores, importadores, certificadores, entidades financieras y otros.",
+    "TextoPublicada": "LCC Espacios te permitirá ampliar tu red de contactos y relacionarte con los principales actores del comercio internacional, tales como agencias de carga, aduanas, exportadores, importadores, certificadores, importadores, certificadores, entidades financieras y otros."
+    },
+    "BeneficioSubTitulo3": {
+    "TextoTemporal": "Socios estratégicos",
+    "TextoPublicada": "Socios estratégicos"
+    },
+    "BeneficioSubContent3": {
+    "TextoTemporal": "Nuestra ubicacón privilegiada nos permite interactuar con empresas que les brindan servicio a la carga, tales como TALMA, SENASA, SNI, BBVA, BCP, entre otros. Así mismo con empresas que por la ubicación estratégica han desarrollado negocios en Lima Cargo City.",
+    "TextoPublicada": "Nuestra ubicacón privilegiada nos permite interactuar con empresas que les brindan servicio a la carga, tales como TALMA, SENASA, SNI, BBVA, BCP, entre otros. Así mismo con empresas que por la ubicación estratégica han desarrollado negocios en Lima Cargo City."
+    },
+    "BeneficioSubTitulo4": {
+    "TextoTemporal": "One stop shop",
+    "TextoPublicada": "One stop shop"
+    },
+    "BeneficioSubContent4": {
+    "TextoTemporal": "Integramos en un solo lugar a los principales agentes operadores de la cadena del comercio internacional: líneas aéreas, terminales de carga, agentes consolidadores de carga, agencias de aduanas y entidades gubernamentales.",
+    "TextoPublicada": "Integramos en un solo lugar a los principales agentes operadores de la cadena del comercio internacional: líneas aéreas, terminales de carga, agentes consolidadores de carga, agencias de aduanas y entidades gubernamentales."
+    },
+    "ServicioTitulo": {
+    "TextoTemporal": "Ofrecemos los mejores servicios",
+    "TextoPublicada": "Ofrecemos los mejores servicios"
+    },
+    "ServicioSubTitulo1": {
+    "TextoTemporal": "Recepción y office\nmanager",
+    "TextoPublicada": "Recepción y office\nmanager"
+    },
+    "ServicioSubTitulo2": {
+    "TextoTemporal": "Internet fibra\nóptica",
+    "TextoPublicada": "Internet fibra\nóptica"
+    },
+    "ServicioSubTitulo3": {
+    "TextoTemporal": "Fotocopiadora\ne impresora",
+    "TextoPublicada": "Fotocopiadora\ne impresora"
+    },
+    "ServicioSubTitulo4": {
+    "TextoTemporal": "Matenimiento\ny limpieza",
+    "TextoPublicada": "Matenimiento\ny limpieza"
+    },
+    "ServicioSubTitulo5": {
+    "TextoTemporal": "Áreas comunes",
+    "TextoPublicada": "Áreas comunes"
+    },
+    "ServicioSubTitulo6": {
+    "TextoTemporal": "Cafetería",
+    "TextoPublicada": "Cafetería"
+    },
+    "ServicioSubTitulo7": {
+    "TextoTemporal": "Seguridad",
+    "TextoPublicada": "Seguridad"
+    },
+    "ServicioSubTitulo8": {
+    "TextoTemporal": "Soporte IT",
+    "TextoPublicada": "Soporte IT"
+    },
+    "ServicioSubTitulo9": {
+    "TextoTemporal": "Lockers",
+    "TextoPublicada": "Lockers"
+    },
+    "ServicioSubTitulo10": {
+    "TextoTemporal": "Horario 24/7",
+    "TextoPublicada": "Horario 24/7"
+    },
+    "CiudadTitulo": {
+    "TextoTemporal": "Encuéntranos en\nLima Cargo City",
+    "TextoPublicada": "Encuéntranos en\nLima Cargo City"
+    },
+    "CiudadContent": {
+    "TextoTemporal": "Somos parte del centro logístico aéreo más importante del Perú que alberga a las principales empresas del sector. Estamos ubicados estratégicamente al costado del Aeropuerto Internacional Jorge Chavez y conectados directamente con Talma.",
+    "TextoPublicada": "Somos parte del centro logístico aéreo más importante del Perú que alberga a las principales empresas del sector. Estamos ubicados estratégicamente al costado del Aeropuerto Internacional Jorge Chavez y conectados directamente con Talma."
+    },
+    "CiudadSubTitulo": {
+    "TextoTemporal": "Empresas que forman parte de LCC",
+    "TextoPublicada": "Empresas que forman parte de LCC"
+    },
+    "_id": "5db71331033ab96d53780e54",
+    "__v": 0
+    },
+    "ESPACIO": {
+    "MostrarPalabra": { },
+    "Titulo": {
+    "TextoTemporal": "Elige la mejor opción de acuerdo tus necesidades y al tamaño de tu equipo.",
+    "TextoPublicada": "Elige la mejor opción de acuerdo tus necesidades y al tamaño de tu equipo."
+    },
+    "SubTitulo1": {
+    "TextoTemporal": "Espacio Colaborativo",
+    "TextoPublicada": "Espacio Colaborativo"
+    },
+    "SubContent1": {
+    "TextoTemporal": "Contamos con amplios escritorios en zonas compartidas que te permitirán relacionarte con otros equipos sector a tiempo completo, así podrás ampliar tu red de contactos y generar negocios.",
+    "TextoPublicada": "Contamos con amplios escritorios en zonas compartidas que te permitirán relacionarte con otros equipos sector a tiempo completo, así podrás ampliar tu red de contactos y generar negocios."
+    },
+    "SubTitulo2": {
+    "TextoTemporal": "Espacio Privado",
+    "TextoPublicada": "Espacio Privado"
+    },
+    "SubContent2": {
+    "TextoTemporal": "Tenemos oficina privadas desde 1 posición de trabajo, con todos los servicios incluidos y acondicionados para el confort de tu día a día, las cuales te permiten compartir con tu equipo a tiempo completo 24/7.",
+    "TextoPublicada": "Tenemos oficina privadas desde 1 posición de trabajo, con todos los servicios incluidos y acondicionados para el confort de tu día a día, las cuales te permiten compartir con tu equipo a tiempo completo 24/7."
+    },
+    "SubTitulo3": {
+    "TextoTemporal": "Espacios Flex",
+    "TextoPublicada": "Espacios Flex"
+    },
+    "SubContent3": {
+    "TextoTemporal": "Contamos con amplios escritorios en zonas compartidas las cuales permitirán relacionarte con empresas del sector a tiempo completo, así podrás ampliar tu red de contactos y generar negocios.",
+    "TextoPublicada": "Contamos con amplios escritorios en zonas compartidas las cuales permitirán relacionarte con empresas del sector a tiempo completo, así podrás ampliar tu red de contactos y generar negocios."
+    },
+    "SubTitulo4": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "SubContent4": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "ServicioTitulo": {
+    "TextoTemporal": "Ofrecemos los mejores servicios",
+    "TextoPublicada": "Ofrecemos los mejores servicios"
+    },
+    "ServicioSubTitulo1": {
+    "TextoTemporal": "Dirección comercial en la mejor zona logística",
+    "TextoPublicada": "Dirección comercial en la mejor zona logística"
+    },
+    "ServicioSubTitulo2": {
+    "TextoTemporal": "Recepción y office\nmanager",
+    "TextoPublicada": "Recepción y office\nmanager"
+    },
+    "ServicioSubTitulo3": {
+    "TextoTemporal": "Mantenimiento\ny limpieza",
+    "TextoPublicada": "Mantenimiento\ny limpieza"
+    },
+    "ServicioSubTitulo4": {
+    "TextoTemporal": "Seguridad",
+    "TextoPublicada": "Seguridad"
+    },
+    "ServicioSubTitulo5": {
+    "TextoTemporal": "Cafetería",
+    "TextoPublicada": "Cafetería"
+    },
+    "ServicioSubTitulo6": {
+    "TextoTemporal": "Áreas comunes",
+    "TextoPublicada": "Áreas comunes"
+    },
+    "ServicioSubTitulo7": {
+    "TextoTemporal": "Lockers",
+    "TextoPublicada": "Lockers"
+    },
+    "ServicioSubTitulo8": {
+    "TextoTemporal": "Soporte IT",
+    "TextoPublicada": "Soporte IT"
+    },
+    "ServicioSubTitulo9": {
+    "TextoTemporal": "Fotocopiadoras\ne impresiones",
+    "TextoPublicada": "Fotocopiadoras\ne impresiones"
+    },
+    "ServicioSubTitulo10": {
+    "TextoTemporal": "Horario 24/7",
+    "TextoPublicada": "Horario 24/7"
+    },
+    "InvitamosTitulo": {
+    "TextoTemporal": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!",
+    "TextoPublicada": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!"
+    },
+    "InvitamosButton": {
+    "TextoTemporal": "Escríbenos",
+    "TextoPublicada": "Escríbenos"
+    },
+    "PreguntasTitulo": {
+    "TextoTemporal": "Preguntas frecuentes",
+    "TextoPublicada": "Preguntas frecuentes"
+    },
+    "PreguntasSubtitulo1": {
+    "TextoTemporal": "¿Cuál es el horario de atención?",
+    "TextoPublicada": "¿Cuál es el horario de atención?"
+    },
+    "PreguntasRespuesta1": {
+    "TextoTemporal": "Contamos con personal para atención en el siguiente horario: De lunes a viernes: 7:00 am a 10:00 pm Sábados: 7:00 am a 6:00 pm.",
+    "TextoPublicada": "Contamos con personal para atención en el siguiente horario: De lunes a viernes: 7:00 am a 10:00 pm Sábados: 7:00 am a 6:00 pm."
+    },
+    "PreguntasSubtitulo2": {
+    "TextoTemporal": "¿Qué incluye la membresía?",
+    "TextoPublicada": "¿Qué incluye la membresía?"
+    },
+    "PreguntasRespuesta2": {
+    "TextoTemporal": "• Acceso 24/7 <br>\n• Créditos para uso de salas de reuniones <br>\n• Impresiones a color y b/n <br>\n• Internet fibra óptica <br>\n• Seguridad, mantenimiento y limpieza <br>\n• Café ilimitado <br>\n• Zona de lockers <br>\n• Uso de áreas comunes <br>",
+    "TextoPublicada": "• Acceso 24/7 <br>\n• Créditos para uso de salas de reuniones <br>\n• Impresiones a color y b/n <br>\n• Internet fibra óptica <br>\n• Seguridad, mantenimiento y limpieza <br>\n• Café ilimitado <br>\n• Zona de lockers <br>\n• Uso de áreas comunes <br>"
+    },
+    "PreguntasSubtitulo3": {
+    "TextoTemporal": "¿Quién se encargará de la limpieza de la oficina?",
+    "TextoPublicada": "¿Quién se encargará de la limpieza de la oficina?"
+    },
+    "PreguntasRespuesta3": {
+    "TextoTemporal": "Tenemos personal de limpieza a tu disposición durante tus horas de trabajo.",
+    "TextoPublicada": "Tenemos personal de limpieza a tu disposición durante tus horas de trabajo."
+    },
+    "PreguntasSubtitulo4": {
+    "TextoTemporal": "¿Cuentan con personal de seguridad?",
+    "TextoPublicada": "¿Cuentan con personal de seguridad?"
+    },
+    "PreguntasRespuesta4": {
+    "TextoTemporal": "Sí, tenemos personal de seguridad 24/7 y cámaras internas.",
+    "TextoPublicada": "Sí, tenemos personal de seguridad 24/7 y cámaras internas."
+    },
+    "PreguntasSubtitulo5": {
+    "TextoTemporal": "¿Puedo recibir visitas?",
+    "TextoPublicada": "¿Puedo recibir visitas?"
+    },
+    "PreguntasRespuesta5": {
+    "TextoTemporal": "Pueden recibir visitas durante el horario de atención.",
+    "TextoPublicada": "Pueden recibir visitas durante el horario de atención."
+    },
+    "PreguntasSubtitulo6": {
+    "TextoTemporal": "¿Cuentan con el servicio de recepción?",
+    "TextoPublicada": "¿Cuentan con el servicio de recepción?"
+    },
+    "PreguntasRespuesta6": {
+    "TextoTemporal": "Podrás contar con nuestro office manager de 9:00 am a 6:00 pm.",
+    "TextoPublicada": "Podrás contar con nuestro office manager de 9:00 am a 6:00 pm."
+    },
+    "_id": "5db78c273eab4e37c54c2159",
+    "__v": 0
+    },
+    "SALA": {
+    "MostrarPalabra": { },
+    "Titulo": {
+    "TextoTemporal": "Contamos con salas de reuniones y capacitaciones diseñadas para la mejor experiencia de trabajo.",
+    "TextoPublicada": "Contamos con salas de reuniones y capacitaciones diseñadas para la mejor experiencia de trabajo."
+    },
+    "SubTitulo1": {
+    "TextoTemporal": "Salas de reuniones",
+    "TextoPublicada": "Salas de reuniones"
+    },
+    "SubContent1": {
+    "TextoTemporal": "Nuestras salas están diseñadas para reuniones de directorio y/o presentaciones ejecutivas, con tu equipo de trabajo o clientes. Contamoscon sistema de conexión inalámbrica que te permitirá proyectar tus presentaciones de una manera más dinámica.",
+    "TextoPublicada": "Nuestras salas están diseñadas para reuniones de directorio y/o presentaciones ejecutivas, con tu equipo de trabajo o clientes. Contamoscon sistema de conexión inalámbrica que te permitirá proyectar tus presentaciones de una manera más dinámica."
+    },
+    "SubTitulo2": {
+    "TextoTemporal": "Salas de capacitaciones",
+    "TextoPublicada": "Salas de capacitaciones"
+    },
+    "SubContent2": {
+    "TextoTemporal": "Tenemos amplias salas de capacitación con aforo de 30 a 42 personas con tecnología Airtame para proyección de tus presentaciones. Las salas también cuentna con tableros de trabajo para hacer cursos y/o talleres.",
+    "TextoPublicada": "Tenemos amplias salas de capacitación con aforo de 30 a 42 personas con tecnología Airtame para proyección de tus presentaciones. Las salas también cuentna con tableros de trabajo para hacer cursos y/o talleres."
+    },
+    "SubTitulo3": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "SubContent3": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "ServicioTitulo": {
+    "TextoTemporal": "Ofrecemos los mejores servicios",
+    "TextoPublicada": "Ofrecemos los mejores servicios"
+    },
+    "ServicioSubTitulo1": {
+    "TextoTemporal": "Internet fibra\nóptica",
+    "TextoPublicada": "Internet fibra\nóptica"
+    },
+    "ServicioSubTitulo2": {
+    "TextoTemporal": "Recepción y office\nmanager",
+    "TextoPublicada": "Recepción y office\nmanager"
+    },
+    "ServicioSubTitulo3": {
+    "TextoTemporal": "Mantenimiento\ny limpieza",
+    "TextoPublicada": "Mantenimiento\ny limpieza"
+    },
+    "ServicioSubTitulo4": {
+    "TextoTemporal": "Seguridad",
+    "TextoPublicada": "Seguridad"
+    },
+    "ServicioSubTitulo5": {
+    "TextoTemporal": "Cafetería",
+    "TextoPublicada": "Cafetería"
+    },
+    "ServicioSubTitulo6": {
+    "TextoTemporal": "Áreas comunes",
+    "TextoPublicada": "Áreas comunes"
+    },
+    "ServicioSubTitulo7": {
+    "TextoTemporal": "Lockers",
+    "TextoPublicada": "Lockers"
+    },
+    "ServicioSubTitulo8": {
+    "TextoTemporal": "Soporte IT",
+    "TextoPublicada": "Soporte IT"
+    },
+    "ServicioSubTitulo9": {
+    "TextoTemporal": "Fotocopiadoras\ne impresiones",
+    "TextoPublicada": "Fotocopiadoras\ne impresiones"
+    },
+    "ServicioSubTitulo10": {
+    "TextoTemporal": "Horario 24/7",
+    "TextoPublicada": "Horario 24/7"
+    },
+    "InvitamosTitulo": {
+    "TextoTemporal": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!",
+    "TextoPublicada": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!"
+    },
+    "InvitamosButton": {
+    "TextoTemporal": "Escríbenos",
+    "TextoPublicada": "Escríbenos"
+    },
+    "PreguntasTitulo": {
+    "TextoTemporal": "Preguntas frecuentes",
+    "TextoPublicada": "Preguntas frecuentes"
+    },
+    "PreguntasSubtitulo1": {
+    "TextoTemporal": "¿Cómo está equipada las salas?",
+    "TextoPublicada": "¿Cómo está equipada las salas?"
+    },
+    "PreguntasRespuesta1": {
+    "TextoTemporal": "Las salas cuentan con pizarras acrílicas, smart Tv con el puedes realizar cualquier presentación digital conectando tus equipos o dispositivos.",
+    "TextoPublicada": "Las salas cuentan con pizarras acrílicas, smart Tv con el puedes realizar cualquier presentación digital conectando tus equipos o dispositivos."
+    },
+    "PreguntasSubtitulo2": {
+    "TextoTemporal": "¿Cuál es horario de atención?",
+    "TextoPublicada": "¿Cuál es horario de atención?"
+    },
+    "PreguntasRespuesta2": {
+    "TextoTemporal": "Contamos con personal para atención en el siguiente horario: De lunes a viernes: 7:00 am a 10:00 pm Sábados: 7:00 am a 6:00 pm.",
+    "TextoPublicada": "Contamos con personal para atención en el siguiente horario: De lunes a viernes: 7:00 am a 10:00 pm Sábados: 7:00 am a 6:00 pm."
+    },
+    "PreguntasSubtitulo3": {
+    "TextoTemporal": "¿Cuál es el aforo?",
+    "TextoPublicada": "¿Cuál es el aforo?"
+    },
+    "PreguntasRespuesta3": {
+    "TextoTemporal": "Tenemos salas de 30 y 42 personas.",
+    "TextoPublicada": "Tenemos salas de 30 y 42 personas."
+    },
+    "PreguntasSubtitulo4": {
+    "TextoTemporal": "¿Puedo acceder a zonas comunes?",
+    "TextoPublicada": "¿Puedo acceder a zonas comunes?"
+    },
+    "PreguntasRespuesta4": {
+    "TextoTemporal": "El alquiler de las salas les permitirá tener acceso a la zona de loungue, donde podrán tomar café, agua e infusiones gratis.",
+    "TextoPublicada": "El alquiler de las salas les permitirá tener acceso a la zona de loungue, donde podrán tomar café, agua e infusiones gratis."
+    },
+    "PreguntasSubtitulo5": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "PreguntasRespuesta5": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "PreguntasSubtitulo6": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "PreguntasRespuesta6": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "_id": "5db79043a5ce1e3b76a3a282",
+    "__v": 0
+    },
+    "COMUNIDAD": {
+    "MostrarPalabra": { },
+    "Comunidad1SeccionTitulo": {
+    "TextoTemporal": "Operadores\nLogísticos",
+    "TextoPublicada": "Operadores\nLogísticos"
+    },
+    "Comunidad1SeccionTituloContent": {
+    "TextoTemporal": "en",
+    "TextoPublicada": "en"
+    },
+    "Comunidad1Titulo": {
+    "TextoTemporal": "Operadores Logísticos",
+    "TextoPublicada": "Operadores Logísticos"
+    },
+    "Comunidad1TituloContent": {
+    "TextoTemporal": "Te brindamos el espacio ideal para trabajar eficientemente en tus operaciones logísticas y comerciales.",
+    "TextoPublicada": "Te brindamos el espacio ideal para trabajar eficientemente en tus operaciones logísticas y comerciales."
+    },
+    "Comunidad1SubTitulo1": {
+    "TextoTemporal": "Aerolíneas",
+    "TextoPublicada": "Aerolíneas"
+    },
+    "Comunidad1SubTitulo2": {
+    "TextoTemporal": "Agentes de\ncarga",
+    "TextoPublicada": "Agentes de\ncarga"
+    },
+    "Comunidad1SubTitulo3": {
+    "TextoTemporal": "Agentes de\naduanas",
+    "TextoPublicada": "Agentes de\naduanas"
+    },
+    "Comunidad1SubTitulo4": {
+    "TextoTemporal": "Transporte de\ncarga",
+    "TextoPublicada": "Transporte de\ncarga"
+    },
+    "Comunidad1BeneficioTitulo": {
+    "TextoTemporal": "Beneficios para los servidores de la carga",
+    "TextoPublicada": "Beneficios para los servidores de la carga"
+    },
+    "Comunidad1BeneficioSubTitulo1": {
+    "TextoTemporal": "Ubicación estratégica",
+    "TextoPublicada": "Ubicación estratégica"
+    },
+    "Comunidad1BeneficioSubContent1": {
+    "TextoTemporal": "Estamos en Lima Cargo City, una posición privilegiada con conexión directa a la rampa del Aeropuerto Internacional Jorge Chávez.",
+    "TextoPublicada": "Estamos en Lima Cargo City, una posición privilegiada con conexión directa a la rampa del Aeropuerto Internacional Jorge Chávez."
+    },
+    "Comunidad1BeneficioSubTitulo2": {
+    "TextoTemporal": "Menores costos",
+    "TextoPublicada": "Menores costos"
+    },
+    "Comunidad1BeneficioSubContent2": {
+    "TextoTemporal": "Te proveemos de todos los servicios necesarios para la optimización de tus operaciones por solo un pago mensual. La sinergia de espacios colaborativos produce un impacto positivo en tus costos.",
+    "TextoPublicada": "Te proveemos de todos los servicios necesarios para la optimización de tus operaciones por solo un pago mensual. La sinergia de espacios colaborativos produce un impacto positivo en tus costos."
+    },
+    "Comunidad1BeneficioSubTitulo3": {
+    "TextoTemporal": "Horarios 24/7",
+    "TextoPublicada": "Horarios 24/7"
+    },
+    "Comunidad1BeneficioSubContent3": {
+    "TextoTemporal": "Tu espacio de trabajo estará disponible las 24 horas del día, los 7 días de la semana, los 365 días del año.",
+    "TextoPublicada": "Tu espacio de trabajo estará disponible las 24 horas del día, los 7 días de la semana, los 365 días del año."
+    },
+    "Comunidad1BeneficioSubTitulo4": {
+    "TextoTemporal": "Seguridad",
+    "TextoPublicada": "Seguridad"
+    },
+    "Comunidad1BeneficioSubContent4": {
+    "TextoTemporal": "Espacios seguros con colaboradores altamente calificados y capacitados. Contamos con una red de cámaras domo enlazadas con el centro de control de Lima Cargo City, las cuales nos permiten tener una visión completa tanto de tus oficinas como de todo el complejo.",
+    "TextoPublicada": "Espacios seguros con colaboradores altamente calificados y capacitados. Contamos con una red de cámaras domo enlazadas con el centro de control de Lima Cargo City, las cuales nos permiten tener una visión completa tanto de tus oficinas como de todo el complejo."
+    },
+    "Comunidad1ServicioTitulo": {
+    "TextoTemporal": "Ofrecemos los mejores servicios",
+    "TextoPublicada": "Ofrecemos los mejores servicios"
+    },
+    "Comunidad1ServicioSubTitulo1": {
+    "TextoTemporal": "Internet fibra\nóptica",
+    "TextoPublicada": "Internet fibra\nóptica"
+    },
+    "Comunidad1ServicioSubTitulo2": {
+    "TextoTemporal": "Recepción y office\nmanager",
+    "TextoPublicada": "Recepción y office\nmanager"
+    },
+    "Comunidad1ServicioSubTitulo3": {
+    "TextoTemporal": "Mantenimiento\ny limpieza",
+    "TextoPublicada": "Mantenimiento\ny limpieza"
+    },
+    "Comunidad1ServicioSubTitulo4": {
+    "TextoTemporal": "Seguridad",
+    "TextoPublicada": "Seguridad"
+    },
+    "Comunidad1ServicioSubTitulo5": {
+    "TextoTemporal": "Cafetería",
+    "TextoPublicada": "Cafetería"
+    },
+    "Comunidad1ServicioSubTitulo6": {
+    "TextoTemporal": "Áreas comunes",
+    "TextoPublicada": "Áreas comunes"
+    },
+    "Comunidad1ServicioSubTitulo7": {
+    "TextoTemporal": "Lockers",
+    "TextoPublicada": "Lockers"
+    },
+    "Comunidad1ServicioSubTitulo8": {
+    "TextoTemporal": "Soporte IT",
+    "TextoPublicada": "Soporte IT"
+    },
+    "Comunidad1ServicioSubTitulo9": {
+    "TextoTemporal": "Fotocopiadoras\ne impresiones",
+    "TextoPublicada": "Fotocopiadoras\ne impresiones"
+    },
+    "Comunidad1ServicioSubTitulo10": {
+    "TextoTemporal": "Horario 24/7",
+    "TextoPublicada": "Horario 24/7"
+    },
+    "Comunidad1SolucionesTitulo": {
+    "TextoTemporal": "Soluciones para tu empresa",
+    "TextoPublicada": "Soluciones para tu empresa"
+    },
+    "Comunidad1SolucionesSubTitulo1": {
+    "TextoTemporal": "Espacios",
+    "TextoPublicada": "Espacios"
+    },
+    "Comunidad1SolucionesSubContent1": {
+    "TextoTemporal": "Nuestros espacios de trabajo son 100% implementados y diseñados para tu operación. Ven y forma parte de la primera comunidad del comercio internacional del país.",
+    "TextoPublicada": "Nuestros espacios de trabajo son 100% implementados y diseñados para tu operación. Ven y forma parte de la primera comunidad del comercio internacional del país."
+    },
+    "Comunidad1SolucionesButton1": {
+    "TextoTemporal": "Conoce más",
+    "TextoPublicada": "Conoce más"
+    },
+    "Comunidad1SolucionesSubTitulo2": {
+    "TextoTemporal": "Salas",
+    "TextoPublicada": "Salas"
+    },
+    "Comunidad1SolucionesSubContent2": {
+    "TextoTemporal": "Tenemos salas de reuniones, directorio y capacitación diseñadas para trabajar con tu equipo de trabajo y clientes.",
+    "TextoPublicada": "Tenemos salas de reuniones, directorio y capacitación diseñadas para trabajar con tu equipo de trabajo y clientes."
+    },
+    "Comunidad1SolucionesButton2": {
+    "TextoTemporal": "Conoce más",
+    "TextoPublicada": "Conoce más"
+    },
+    "Comunidad1InvitamosTitulo": {
+    "TextoTemporal": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!",
+    "TextoPublicada": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!"
+    },
+    "Comunidad1InvitamosButton": {
+    "TextoTemporal": "Escríbenos",
+    "TextoPublicada": "Escríbenos"
+    },
+    "Comunidad2SeccionTitulo": {
+    "TextoTemporal": "Exportadores/\nImportadores",
+    "TextoPublicada": "Exportadores/\nImportadores"
+    },
+    "Comunidad2SeccionTituloContent": {
+    "TextoTemporal": "ty",
+    "TextoPublicada": "ty"
+    },
+    "Comunidad2Titulo": {
+    "TextoTemporal": "Exportadores/ Importadores",
+    "TextoPublicada": "Exportadores/ Importadores"
+    },
+    "Comunidad2TituloContent": {
+    "TextoTemporal": "Te ofrecemos espacios de acuerdo a sus necesidades empresariales con el fin de facilitar sus actividades en la gestión de comercio exterior de su empresa.",
+    "TextoPublicada": "Te ofrecemos espacios de acuerdo a sus necesidades empresariales con el fin de facilitar sus actividades en la gestión de comercio exterior de su empresa."
+    },
+    "Comunidad2SubTitulo1": {
+    "TextoTemporal": "Exportadores",
+    "TextoPublicada": "Exportadores"
+    },
+    "Comunidad2SubTitulo2": {
+    "TextoTemporal": "Importadores",
+    "TextoPublicada": "Importadores"
+    },
+    "Comunidad2SubTitulo3": {
+    "TextoTemporal": "Transporte Aéreo\nNacional",
+    "TextoPublicada": "Transporte Aéreo\nNacional"
+    },
+    "Comunidad2BeneficioTitulo": {
+    "TextoTemporal": "Beneficios para los usuarios de la carga",
+    "TextoPublicada": "Beneficios para los usuarios de la carga"
+    },
+    "Comunidad2BeneficioSubTitulo1": {
+    "TextoTemporal": "Networking",
+    "TextoPublicada": "Networking"
+    },
+    "Comunidad2BeneficioSubContent1": {
+    "TextoTemporal": "LCC Espacios te permitirá ampliar tu red de contactos y relacionarte con los principales actores del comercio internacional, tales como agencias de carga, aduanas, exportadores, importadores, certificadores, entidades financieras y otros.",
+    "TextoPublicada": "LCC Espacios te permitirá ampliar tu red de contactos y relacionarte con los principales actores del comercio internacional, tales como agencias de carga, aduanas, exportadores, importadores, certificadores, entidades financieras y otros."
+    },
+    "Comunidad2BeneficioSubTitulo2": {
+    "TextoTemporal": "Socios estratégicos",
+    "TextoPublicada": "Socios estratégicos"
+    },
+    "Comunidad2BeneficioSubContent2": {
+    "TextoTemporal": "Nuestra ubicación privilegiada nos permite interactuar con empresas que les brindan servicio a la carga, tales como TALMA, SENASA, SNI, BBVA, BCP, entre otros. Así mismo con empresas que por la ubicación estratégica han desarrollado negocios en Lima Cargo City.",
+    "TextoPublicada": "Nuestra ubicación privilegiada nos permite interactuar con empresas que les brindan servicio a la carga, tales como TALMA, SENASA, SNI, BBVA, BCP, entre otros. Así mismo con empresas que por la ubicación estratégica han desarrollado negocios en Lima Cargo City."
+    },
+    "Comunidad2BeneficioSubTitulo3": {
+    "TextoTemporal": "Ubicación estratégica",
+    "TextoPublicada": "Ubicación estratégica"
+    },
+    "Comunidad2BeneficioSubContent3": {
+    "TextoTemporal": "Estamos en Lima Cargo City, una posición privilegiada con conexión directa a la rampa del Aeropuerto Internacional Jorge Chávez.",
+    "TextoPublicada": "Estamos en Lima Cargo City, una posición privilegiada con conexión directa a la rampa del Aeropuerto Internacional Jorge Chávez."
+    },
+    "Comunidad2BeneficioSubTitulo4": {
+    "TextoTemporal": "Flexibilidad horaria",
+    "TextoPublicada": "Flexibilidad horaria"
+    },
+    "Comunidad2BeneficioSubContent4": {
+    "TextoTemporal": "Tú espacios de trabajo estará disponible las 24 horas del día los 7 días de la semana los 365 días del año.",
+    "TextoPublicada": "Tú espacios de trabajo estará disponible las 24 horas del día los 7 días de la semana los 365 días del año."
+    },
+    "Comunidad2ServicioTitulo": {
+    "TextoTemporal": "Ofrecemos los mejores servicios",
+    "TextoPublicada": "Ofrecemos los mejores servicios"
+    },
+    "Comunidad2ServicioSubTitulo1": {
+    "TextoTemporal": "Dirección comercial en la mejor zona logística",
+    "TextoPublicada": "Dirección comercial en la mejor zona logística"
+    },
+    "Comunidad2ServicioSubTitulo2": {
+    "TextoTemporal": "Recepción y office manager",
+    "TextoPublicada": "Recepción y office manager"
+    },
+    "Comunidad2ServicioSubTitulo3": {
+    "TextoTemporal": "Mantenimiento y limpieza",
+    "TextoPublicada": "Mantenimiento y limpieza"
+    },
+    "Comunidad2ServicioSubTitulo4": {
+    "TextoTemporal": "Seguridad",
+    "TextoPublicada": "Seguridad"
+    },
+    "Comunidad2ServicioSubTitulo5": {
+    "TextoTemporal": "Networking",
+    "TextoPublicada": "Networking"
+    },
+    "Comunidad2ServicioSubTitulo6": {
+    "TextoTemporal": "Áreas comunes",
+    "TextoPublicada": "Áreas comunes"
+    },
+    "Comunidad2ServicioSubTitulo7": {
+    "TextoTemporal": "Lockers",
+    "TextoPublicada": "Lockers"
+    },
+    "Comunidad2ServicioSubTitulo8": {
+    "TextoTemporal": "Soporte IT",
+    "TextoPublicada": "Soporte IT"
+    },
+    "Comunidad2ServicioSubTitulo9": {
+    "TextoTemporal": "Fotocopiadoras e impresiones",
+    "TextoPublicada": "Fotocopiadoras e impresiones"
+    },
+    "Comunidad2ServicioSubTitulo10": {
+    "TextoTemporal": "Horario 24/7",
+    "TextoPublicada": "Horario 24/7"
+    },
+    "Comunidad2SolucionesTitulo": {
+    "TextoTemporal": "Soluciones para tu empresa",
+    "TextoPublicada": "Soluciones para tu empresa"
+    },
+    "Comunidad2SolucionesSubTitulo1": {
+    "TextoTemporal": "Espacios",
+    "TextoPublicada": "Espacios"
+    },
+    "Comunidad2SolucionesSubContent1": {
+    "TextoTemporal": "Nuestros espacios de trabajo son 100% implementados y diseñados para tu operación. Ven y forma parte de la primera comunidad del comercio internacional del país.",
+    "TextoPublicada": "Nuestros espacios de trabajo son 100% implementados y diseñados para tu operación. Ven y forma parte de la primera comunidad del comercio internacional del país."
+    },
+    "Comunidad2SolucionesButton1": {
+    "TextoTemporal": "Conoce más",
+    "TextoPublicada": "Conoce más"
+    },
+    "Comunidad2SolucionesSubTitulo2": {
+    "TextoTemporal": "Salas",
+    "TextoPublicada": "Salas"
+    },
+    "Comunidad2SolucionesSubContent2": {
+    "TextoTemporal": "Tenemos salas de reuniones, directorio y capacitación diseñadas para trabajar con tu equipo de trabajo y clientes.",
+    "TextoPublicada": "Tenemos salas de reuniones, directorio y capacitación diseñadas para trabajar con tu equipo de trabajo y clientes."
+    },
+    "Comunidad2SolucionesButton2": {
+    "TextoTemporal": "Conoce más",
+    "TextoPublicada": "Conoce más"
+    },
+    "Comunidad2InvitamosTitulo": {
+    "TextoTemporal": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!",
+    "TextoPublicada": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!"
+    },
+    "Comunidad2InvitamosButton": {
+    "TextoTemporal": "Escríbenos",
+    "TextoPublicada": "Escríbenos"
+    },
+    "Comunidad3SeccionTitulo": {
+    "TextoTemporal": "Otras\nInstituciones",
+    "TextoPublicada": "Otras\nInstituciones"
+    },
+    "Comunidad3SeccionTituloContent": {
+    "TextoTemporal": "ty",
+    "TextoPublicada": "ty"
+    },
+    "Comunidad3Titulo": {
+    "TextoTemporal": "Otras Instituciones",
+    "TextoPublicada": "Otras Instituciones"
+    },
+    "Comunidad3SubTitulo1": {
+    "TextoTemporal": "Personas",
+    "TextoPublicada": "Personas"
+    },
+    "Comunidad3SubContent1": {
+    "TextoTemporal": "Te brindamos el espacio adecuado para desarrollar tus proyectos personales, hacer networking y relacionarte con los principales operadores del comercio internacional, sin tener que preocuparte por los costos de tener una oficina propia.",
+    "TextoPublicada": "Te brindamos el espacio adecuado para desarrollar tus proyectos personales, hacer networking y relacionarte con los principales operadores del comercio internacional, sin tener que preocuparte por los costos de tener una oficina propia."
+    },
+    "Comunidad3SubTitulo2": {
+    "TextoTemporal": "Pymes",
+    "TextoPublicada": "Pymes"
+    },
+    "Comunidad3SubContent2": {
+    "TextoTemporal": "Desarrollar tu negocio con una imagen empresarial de respaldo, donde podrás recibir a tus clientes o reunirte con tu equipo de trabajo.",
+    "TextoPublicada": "Desarrollar tu negocio con una imagen empresarial de respaldo, donde podrás recibir a tus clientes o reunirte con tu equipo de trabajo."
+    },
+    "Comunidad3SubTitulo3": {
+    "TextoTemporal": "Corporaciones",
+    "TextoPublicada": "Corporaciones"
+    },
+    "Comunidad3SubContent3": {
+    "TextoTemporal": "Forma parte del principal centro de negocios en la mejor ubicación estratégica del Callao, en un ambiente cómodo, seguro y flexible.",
+    "TextoPublicada": "Forma parte del principal centro de negocios en la mejor ubicación estratégica del Callao, en un ambiente cómodo, seguro y flexible."
+    },
+    "Comunidad3SubTitulo4": {
+    "TextoTemporal": "ty",
+    "TextoPublicada": "ty"
+    },
+    "Comunidad3SubContent4": {
+    "TextoTemporal": "ty",
+    "TextoPublicada": "ty"
+    },
+    "Comunidad3BeneficioTitulo": {
+    "TextoTemporal": "Beneficios de soluciones a medida",
+    "TextoPublicada": "Beneficios de soluciones a medida"
+    },
+    "Comunidad3BeneficioSubTitulo1": {
+    "TextoTemporal": "Networking",
+    "TextoPublicada": "Networking"
+    },
+    "Comunidad3BeneficioSubContent1": {
+    "TextoTemporal": "LCC Espacios te permitirá ampliar tu red de contactos y relacionarte con los principales actores del comercio internacional, tales como agencias de carga, aduanas, exportadores, importadores, certificadores, entidades financieras y otros.",
+    "TextoPublicada": "LCC Espacios te permitirá ampliar tu red de contactos y relacionarte con los principales actores del comercio internacional, tales como agencias de carga, aduanas, exportadores, importadores, certificadores, entidades financieras y otros."
+    },
+    "Comunidad3BeneficioSubTitulo2": {
+    "TextoTemporal": "Suministros",
+    "TextoPublicada": "Suministros"
+    },
+    "Comunidad3BeneficioSubContent2": {
+    "TextoTemporal": "Despreocúpate por la inversión en implementar una oficina, o del pago por servicios de luz, agua o mantenimiento. Con nosotros solo te debes enfocar en tu negocio y te olvidas de lo demás.",
+    "TextoPublicada": "Despreocúpate por la inversión en implementar una oficina, o del pago por servicios de luz, agua o mantenimiento. Con nosotros solo te debes enfocar en tu negocio y te olvidas de lo demás."
+    },
+    "Comunidad3BeneficioSubTitulo3": {
+    "TextoTemporal": "Menores costos",
+    "TextoPublicada": "Menores costos"
+    },
+    "Comunidad3BeneficioSubContent3": {
+    "TextoTemporal": "Te proveemos de todos los servicios necesarios para la optimización de tus operaciones por solo un pago mensual. La sinergia de espacios colaborativos produce un impacto positivo en tus costos.",
+    "TextoPublicada": "Te proveemos de todos los servicios necesarios para la optimización de tus operaciones por solo un pago mensual. La sinergia de espacios colaborativos produce un impacto positivo en tus costos."
+    },
+    "Comunidad3BeneficioSubTitulo4": {
+    "TextoTemporal": "Ubicación estratégica",
+    "TextoPublicada": "Ubicación estratégica"
+    },
+    "Comunidad3BeneficioSubContent4": {
+    "TextoTemporal": "Estamos en Lima Cargo City, una posición privilegiada con conexión directa a la rampa del Aeropuerto Internacional Jorge Chávez.",
+    "TextoPublicada": "Estamos en Lima Cargo City, una posición privilegiada con conexión directa a la rampa del Aeropuerto Internacional Jorge Chávez."
+    },
+    "Comunidad3ServicioTitulo": {
+    "TextoTemporal": "Ofrecemos los mejores servicios",
+    "TextoPublicada": "Ofrecemos los mejores servicios"
+    },
+    "Comunidad3ServicioSubTitulo1": {
+    "TextoTemporal": "Internet fibra óptica",
+    "TextoPublicada": "Internet fibra óptica"
+    },
+    "Comunidad3ServicioSubTitulo2": {
+    "TextoTemporal": "Recepción y office manager",
+    "TextoPublicada": "Recepción y office manager"
+    },
+    "Comunidad3ServicioSubTitulo3": {
+    "TextoTemporal": "Mantenimiento y limpieza",
+    "TextoPublicada": "Mantenimiento y limpieza"
+    },
+    "Comunidad3ServicioSubTitulo4": {
+    "TextoTemporal": "Seguridad",
+    "TextoPublicada": "Seguridad"
+    },
+    "Comunidad3ServicioSubTitulo5": {
+    "TextoTemporal": "Cafetería",
+    "TextoPublicada": "Cafetería"
+    },
+    "Comunidad3ServicioSubTitulo6": {
+    "TextoTemporal": "Áreas comunes",
+    "TextoPublicada": "Áreas comunes"
+    },
+    "Comunidad3ServicioSubTitulo7": {
+    "TextoTemporal": "Lockers",
+    "TextoPublicada": "Lockers"
+    },
+    "Comunidad3ServicioSubTitulo8": {
+    "TextoTemporal": "Soporte IT",
+    "TextoPublicada": "Soporte IT"
+    },
+    "Comunidad3ServicioSubTitulo9": {
+    "TextoTemporal": "Fotocopiadoras e impresiones",
+    "TextoPublicada": "Fotocopiadoras e impresiones"
+    },
+    "Comunidad3ServicioSubTitulo10": {
+    "TextoTemporal": "Horario 24/7",
+    "TextoPublicada": "Horario 24/7"
+    },
+    "Comunidad3SolucionesTitulo": {
+    "TextoTemporal": "Soluciones para tu empresa",
+    "TextoPublicada": "Soluciones para tu empresa"
+    },
+    "Comunidad3SolucionesSubTitulo1": {
+    "TextoTemporal": "Espacios",
+    "TextoPublicada": "Espacios"
+    },
+    "Comunidad3SolucionesSubContent1": {
+    "TextoTemporal": "Nuestros espacios de trabajo son 100% implementados y diseñados para tu operación. Ven y forma parte de la primera comunidad del comercio internacional del país.\n\n",
+    "TextoPublicada": "Nuestros espacios de trabajo son 100% implementados y diseñados para tu operación. Ven y forma parte de la primera comunidad del comercio internacional del país.\n\n"
+    },
+    "Comunidad3SolucionesButton1": {
+    "TextoTemporal": "Conoce más",
+    "TextoPublicada": "Conoce más"
+    },
+    "Comunidad3SolucionesSubTitulo2": {
+    "TextoTemporal": "Salas",
+    "TextoPublicada": "Salas"
+    },
+    "Comunidad3SolucionesSubContent2": {
+    "TextoTemporal": "Tenemos salas de reuniones, directorio y capacitación diseñadas para trabajar con tu equipo de trabajo y clientes.",
+    "TextoPublicada": "Tenemos salas de reuniones, directorio y capacitación diseñadas para trabajar con tu equipo de trabajo y clientes."
+    },
+    "Comunidad3SolucionesButton2": {
+    "TextoTemporal": "Conoce más",
+    "TextoPublicada": "Conoce más"
+    },
+    "Comunidad3InvitamosTitulo": {
+    "TextoTemporal": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!",
+    "TextoPublicada": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!"
+    },
+    "Comunidad3InvitamosButton": {
+    "TextoTemporal": "Escríbenos",
+    "TextoPublicada": "Escríbenos"
+    },
+    "_id": "5db7989e7ed4853d45c6ea72",
+    "__v": 0
+    },
+    "NOSOTROS": {
+    "MostrarPalabra": { },
+    "Titulo": {
+    "TextoTemporal": "¿Qué nos inspira?",
+    "TextoPublicada": "¿Qué nos inspira?"
+    },
+    "TituloContent": {
+    "TextoTemporal": "Nos inspira la grandeza de nuestro país, y su acto generoso de compartir nuestras riquezas con el mundo. Nos inspira la dedicación de la comunidad de exportadores que cuidan cada detalle del proceso de exportación para garantizar la llegada de sus productos a su destino. Nos inspira ser parte del crecimiento de nuestra comunidad.",
+    "TextoPublicada": "Nos inspira la grandeza de nuestro país, y su acto generoso de compartir nuestras riquezas con el mundo. Nos inspira la dedicación de la comunidad de exportadores que cuidan cada detalle del proceso de exportación para garantizar la llegada de sus productos a su destino. Nos inspira ser parte del crecimiento de nuestra comunidad."
+    },
+    "SubTitulo1": {
+    "TextoTemporal": "¿Quiénes somos?",
+    "TextoPublicada": "¿Quiénes somos?"
+    },
+    "SubContent1": {
+    "TextoTemporal": "Somos LCC espacios, el lugar donde los actores del comercio internacional amplían sus posibilidades de éxito.\n\nExistimos, porque creemos en el desarrollo de nuestro país y por ello estamos comprometidos a construir la comunidad que lo haga posible.\n\nAquí encontraras la forma de llegar más personas y a más destinos de manera segura y sin demora.",
+    "TextoPublicada": "Somos LCC espacios, el lugar donde los actores del comercio internacional amplían sus posibilidades de éxito.\n\nExistimos, porque creemos en el desarrollo de nuestro país y por ello estamos comprometidos a construir la comunidad que lo haga posible.\n\nAquí encontraras la forma de llegar más personas y a más destinos de manera segura y sin demora."
+    },
+    "InvitamosTitulo": {
+    "TextoTemporal": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!",
+    "TextoPublicada": "Te invitamos a conocer nuestros espacios de trabajo, ¡agenda un tour!"
+    },
+    "InvitamosButton": {
+    "TextoTemporal": "Escríbenos",
+    "TextoPublicada": "Escríbenos"
+    },
+    "_id": "5db7932c7ed4853d45c6ea6f",
+    "__v": 0
+    },
+    "ESCRIBENOS": {
+    "MostrarPalabra": { },
+    "Titulo": {
+    "TextoTemporal": "Nos encantaría conocerte",
+    "TextoPublicada": "Nos encantaría conocerte"
+    },
+    "TituloContent": {
+    "TextoTemporal": "¿Te gustaría ver nuestros espacios antes de unirte?\nPor favor, completa el formulario y con gusto nos pondremos en contacto lo\nantes posible para atender tus consultas, inquietudes y agendar un tour.",
+    "TextoPublicada": "¿Te gustaría ver nuestros espacios antes de unirte?\nPor favor, completa el formulario y con gusto nos pondremos en contacto lo\nantes posible para atender tus consultas, inquietudes y agendar un tour."
+    },
+    "FormularioEmailSubmit": {
+    "TextoTemporal": "diversityvotes.ca@gmail.com",
+    "TextoPublicada": "diversityvotes.ca@gmail.com"
+    },
+    "FormularioEmailPasswordSubmit": {
+    "TextoTemporal": "Diversity@admin",
+    "TextoPublicada": "Diversity@admin"
+    },
+    "FormularioNombre": {
+    "TextoTemporal": "Nombre *",
+    "TextoPublicada": "Nombre *"
+    },
+    "FormularioApellido": {
+    "TextoTemporal": "Apellido *",
+    "TextoPublicada": "Apellido *"
+    },
+    "FormularioCorreo": {
+    "TextoTemporal": "Correo *",
+    "TextoPublicada": "Correo *"
+    },
+    "FormularioEmpresa": {
+    "TextoTemporal": "Empresa *",
+    "TextoPublicada": "Empresa *"
+    },
+    "FormularioCelular": {
+    "TextoTemporal": "Teléfono / celular *",
+    "TextoPublicada": "Teléfono / celular *"
+    },
+    "FormularioServicio": {
+    "TextoTemporal": "Servicio de interés *",
+    "TextoPublicada": "Servicio de interés *"
+    },
+    "FormularioTerminos": {
+    "TextoTemporal": "Acepto los Términos y condiciones.",
+    "TextoPublicada": "Acepto los Términos y condiciones."
+    },
+    "FormularioTerminosContenido": {
+    "TextoTemporal": "LCC desarrolla tecnologías y servicios que permiten a las personas conectarse entre sí, establecer comunidades.",
+    "TextoPublicada": "LCC desarrolla tecnologías y servicios que permiten a las personas conectarse entre sí, establecer comunidades."
+    },
+    "FormularioButton": {
+    "TextoTemporal": "Enviar",
+    "TextoPublicada": "Enviar"
+    },
+    "_id": "5db85519ace6d722aac7ea35",
+    "__v": 0
+    },
+    "NAVBAR": {
+    "MostrarPalabra": { },
+    "Opcion1": {
+    "TextoTemporal": "Espacios",
+    "TextoPublicada": "Espacios"
+    },
+    "Opcion1Url": { },
+    "Opcion2": {
+    "TextoTemporal": "Salas",
+    "TextoPublicada": "Salas"
+    },
+    "Opcion2Url": { },
+    "Opcion3": {
+    "TextoTemporal": "Comunidad",
+    "TextoPublicada": "Comunidad"
+    },
+    "Opcion3Url": { },
+    "Opcion4": {
+    "TextoTemporal": "Nosotros",
+    "TextoPublicada": "Nosotros"
+    },
+    "Opcion4Url": { },
+    "Opcion5": {
+    "TextoTemporal": "Escríbenos",
+    "TextoPublicada": "Escríbenos"
+    },
+    "Opcion5Url": { },
+    "Ayuda": {
+    "TextoTemporal": "¿Tienes preguntas o necesitas ayuda?",
+    "TextoPublicada": "¿Tienes preguntas o necesitas ayuda?"
+    },
+    "_id": "5db795917ed4853d45c6ea70",
+    "__v": 0
+    },
+    "FOOTER": {
+    "MostrarPalabra": {
+    "TextoTemporal": "undefined",
+    "TextoPublicada": "undefined"
+    },
+    "Sub1TituloEspacio": {
+    "TextoTemporal": "LCC Espacios",
+    "TextoPublicada": "LCC Espacios"
+    },
+    "Sub1Opcion1": {
+    "TextoTemporal": "Nosotros",
+    "TextoPublicada": "Nosotros"
+    },
+    "Sub1Opcion1Url": { },
+    "Sub1Opcion2": {
+    "TextoTemporal": "Escríbenos",
+    "TextoPublicada": "Escríbenos"
+    },
+    "Sub1Opcion2Url": { },
+    "Sub1Opcion3": {
+    "TextoTemporal": "Términos y condiciones",
+    "TextoPublicada": "Términos y condiciones"
+    },
+    "Sub1Opcion3Url": { },
+    "Sub2TituloServicios": {
+    "TextoTemporal": "Servicios",
+    "TextoPublicada": "Servicios"
+    },
+    "Sub2Opcion1": {
+    "TextoTemporal": "Espacios",
+    "TextoPublicada": "Espacios"
+    },
+    "Sub2Opcion1Url": { },
+    "Sub2Opcion2": {
+    "TextoTemporal": "Salas",
+    "TextoPublicada": "Salas"
+    },
+    "Sub2Opcion2Url": { },
+    "Sub3TituloComunidad": {
+    "TextoTemporal": "Comunidad",
+    "TextoPublicada": "Comunidad"
+    },
+    "Sub3Opcion1": {
+    "TextoTemporal": "Operadores Logísticos",
+    "TextoPublicada": "Operadores Logísticos"
+    },
+    "Sub3Opcion1Url": { },
+    "Sub3Opcion2": {
+    "TextoTemporal": "Exportadores / \nImportadores",
+    "TextoPublicada": "Exportadores / \nImportadores"
+    },
+    "Sub3Opcion2Url": { },
+    "Sub3Opcion3": {
+    "TextoTemporal": "Otras Insituciones",
+    "TextoPublicada": "Otras Insituciones"
+    },
+    "Sub3Opcion3Url": { },
+    "Sub4TituloContactanos": {
+    "TextoTemporal": "Contáctanos",
+    "TextoPublicada": "Contáctanos"
+    },
+    "Sub4Opcion1": {
+    "TextoTemporal": "Av. Elmer Faucett 2851 <br> piso 03\n- Of.324 <br> Lima Cargo City",
+    "TextoPublicada": "Av. Elmer Faucett 2851 <br> piso 03\n- Of.324 <br> Lima Cargo City"
+    },
+    "Sub4Opcion2": {
+    "TextoTemporal": "(+511) 222 3334",
+    "TextoPublicada": "(+511) 222 3334"
+    },
+    "Sub4Opcion3": {
+    "TextoTemporal": "(+51) 923 871 842",
+    "TextoPublicada": "(+51) 923 871 842"
+    },
+    "Sub4Opcion4": {
+    "TextoTemporal": "info@lccespacios.com.pe",
+    "TextoPublicada": "info@lccespacios.com.pe"
+    },
+    "FacebookUrl": { },
+    "TwitterUrl": { },
+    "LinkedinUrl": { },
+    "OpcionImg1Url": { },
+    "OpcionImg2Url": { },
+    "OpcionImg3Url": { },
+    "OpcionImg4Url": { },
+    "OpcionImg5Url": { },
+    "Subtitulo5": {
+    "TextoTemporal": "Somos parte de",
+    "TextoPublicada": "Somos parte de"
+    },
+    "Subtitulo6": {
+    "TextoTemporal": "del",
+    "TextoPublicada": "del"
+    },
+    "_id": "5db796167ed4853d45c6ea71",
+    "__v": 0
+    }
+    }

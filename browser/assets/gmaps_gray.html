@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styled Maps - Night Mode</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            // Styles a map in night mode.
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: -12.028310, lng: -77.103724},
+                zoom: 14,
+                styles: [
+                    {
+                        "featureType": "administrative",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            { "color": "#444444" }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "all",
+                        "stylers": [
+                            { "color": "#f2f2f2" }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "all",
+                        "stylers": [
+                            { "visibility": "off" }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "all",
+                        "stylers": [
+                            { "saturation": -100 },
+                            { "lightness": 45 }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "all",
+                        "stylers": [
+                            { "visibility": "simplified" }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            { "visibility": "off" }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "all",
+                        "stylers": [
+                            { "visibility": "off" }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "all",
+                        "stylers": [
+                            { "color": "#464646" },
+                            { "visibility": "on" }
+                        ]
+                    }
+                ]
+            });
+
+            var contentString = `
+                <div id="content">
+                    <h1 id="firstHeading" class="firstHeading" style="font-size: 1.2em; margin: 0;">LCC ESPACIOS</h1>
+                    <div id="bodyContent">
+                        <p style="font-size: 1.2em; margin: 0;"> Av Elmer Faucett 2800 <br/> Callao 07031 <br/> Perú </p>
+                        <p style="font-size: 1.2em; margin: 0;">
+                            <a
+                            href="https://goo.gl/maps/8f4GXxi3bNRgtiTP8"
+                            target="_blank"
+                            style="text-decoration: none; color: blue;"
+                            >
+                                Ver en Google Maps
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            `;
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            const marker=new google.maps.Marker({
+                position:map.getCenter(), 
+                map:map, 
+                draggable:true,
+            });
+
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+               
+            google.maps.event.addListener(marker,'dragend',function(event) {
+                document.getElementById("coords").value = this.getPosition().toString();
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUckEqMGN6Llf4Zk-JXaIa-lsh3jz-noc&callback=initMap" async defer></script>
+  </body>
+</html>
