@@ -1,0 +1,107 @@
+<footer class="bg-footer" *ngIf="objectTemporal.LogoImagentipo">
+    <section class="container">
+        <div class="row px-md-0 py-3 pt-md-5 pb-md-2">
+            <div class="col-12 px-md-0">
+                <div class="d-flex flex-column flex-md-row  justify-content-md-between">
+                    <div class="p-2 pt-3 mostrar">
+                        <div class="card border-0">
+                            <div class="card-title text-center">
+                                <img [src]="objectTemporal.LogoImagentipo.ImagenPublicada | imagen:'footer'" (click)="routerHome()" class="img-fluid h-7 img-logo-footer pointer" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card border-0">
+                            <div class="card-body p-0 pl-3 p-md-0 p-lg-3">
+                                <div class="card-subtitle px-md-0">
+                                    <h5 class="pb-md-2 pt-md-2 t-footer" [innerHTML]="'FOOTER.Sub1TituloEspacio.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text pointer p-footer" (click)="routerNosotros()" [innerHTML]="'FOOTER.Sub1Opcion1.TextoPublicada' | translate"></div>
+                                <div class="card-text pointer p-footer" (click)="routerEscribenos()" [innerHTML]="'FOOTER.Sub1Opcion2.TextoPublicada' | translate"></div>
+                                <a class="card-text pointer p-footer" target="_blank" href="https://www.somoseticos.com/iksa/" [innerHTML]="'FOOTER.Sub1Opcion3.TextoPublicada' | translate"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card border-0">
+                            <div class="card-body p-0 pl-3 p-md-0 p-lg-3">
+                                <div class="card-subtitle">
+                                    <h5 class="pb-md-3 pt-2 t-footer mb-md-4 mb-lg-0" [innerHTML]="'FOOTER.Sub2TituloServicios.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text pointer p-footer" (click)="routerEspacios()" [innerHTML]="'FOOTER.Sub2Opcion1.TextoPublicada' | translate"></div>
+                                <div class="card-text pointer p-footer" (click)="routerSalas()" [innerHTML]="'FOOTER.Sub2Opcion2.TextoPublicada' | translate"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card border-0">
+                            <div class="card-body p-0 pl-3 p-md-0 p-lg-3">
+                                <div class="card-subtitle">
+                                    <h5 class="pb-md-3 pt-2 t-footer mb-md-4 mb-lg-0" [innerHTML]="'FOOTER.Sub3TituloComunidad.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text pointer p-footer" (click)="routerComunidad('1')" [innerHTML]="'FOOTER.Sub3Opcion1.TextoPublicada' | translate"></div>
+                                <div class="card-text pointer p-footer" (click)="routerComunidad('2')" [innerHTML]="'FOOTER.Sub3Opcion2.TextoPublicada' | translate"></div>
+                                <div class="card-text pointer p-footer" (click)="routerComunidad('3')" [innerHTML]="'FOOTER.Sub3Opcion3.TextoPublicada' | translate"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card border-0">
+                            <div class="card-body p-0 pl-3 p-md-0 p-lg-3">
+                                <div class="card-subtitle">
+                                    <h5 class="pb-md-3 pt-2 t-footer mb-md-4 mb-lg-0" [innerHTML]="'FOOTER.Sub4TituloContactanos.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text">
+                                    <div class="xfooter">
+                                        <!-- <div class="px-0">  -->
+                                            <img [src]="objectTemporal.Sub4Opcion1Imagen.ImagenPublicada | imagen:'footer'" class="w-2em pointer" alt=""> 
+                                            <span class="pc-footer" [innerHTML]="'FOOTER.Sub4Opcion1.TextoPublicada' | translate"></span> 
+                                        <!-- </div> -->
+                                        <!-- <div class="px-0">  -->
+                                            <img [src]="objectTemporal.Sub4Opcion2Imagen.ImagenPublicada | imagen:'footer'" class="w-2em pointer" alt=""> 
+                                            <a href="tel:+015112223334" class="pc-footer pointer mailTo" [innerHTML]="'FOOTER.Sub4Opcion2.TextoPublicada' | translate"></a> 
+                                        <!-- </div> -->
+                                        <!-- <div class="px-0">  -->
+                                            <img [src]="objectTemporal.Sub4Opcion3Imagen.ImagenPublicada | imagen:'footer'" class="w-2em pointer" alt=""> 
+                                            <a href="tel:+51923871842" class="pc-footer pointer mailTo" [innerHTML]="'FOOTER.Sub4Opcion3.TextoPublicada' | translate"></a> 
+                                        <!-- </div> -->
+                                        <!-- <div class="px-0">  -->
+                                            <img [src]="objectTemporal.Sub4Opcion4Imagen.ImagenPublicada | imagen:'footer'" class="w-2em pointer" alt=""> 
+                                            <a href="mailto:info@lccespacios.com.pe" class="pc-footer pointer mailTo" [innerHTML]="'FOOTER.Sub4Opcion4.TextoPublicada' | translate"></a> 
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row px-3 px-sm-0 py-3 pb-md-5 text-center text-md-left">
+            <div class="col-12 col-md-3 pb-4 pb-sm-0">
+                <a href="https://www.facebook.com/LCC.Espacios/" target="_blank">
+                    <img [src]="objectTemporal.OpcionImagen1.ImagenPublicada | imagen:'footer'" class="img-fluid pointer" alt="">
+                </a>
+                <!-- <a href=""> -->
+                    <!-- <img [src]="objectTemporal.OpcionImagen2.ImagenPublicada | imagen:'footer'" class="img-fluid pointer" alt=""> -->
+                <!-- </a> -->
+                <a href="https://www.linkedin.com/company/lccespacios/" target="_blank">
+                    <img [src]="objectTemporal.OpcionImagen3.ImagenPublicada | imagen:'footer'" class="img-fluid pointer" alt="">
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <span class="text-white mr-3" [innerHTML]="'FOOTER.Subtitulo5.TextoPublicada' | translate"> </span> 
+                <a href="http://www.limacargocity.com.pe/" target="_blank">
+                    <img [src]="objectTemporal.OpcionImagen4.ImagenPublicada | imagen:'footer'"  class="img-fluid mr-2 mr-md-0 img-lima" alt=""> 
+                </a>
+                <span class="text-white mx-md-3" [innerHTML]="'FOOTER.Subtitulo6.TextoPublicada' | translate"></span> 
+                <a href="http://www.sandoval.com.pe/" target="_blank">
+                    <img [src]="objectTemporal.OpcionImagen5.ImagenPublicada | imagen:'footer'"  class="img-fluid ml-2 ml-md-0 ml-md-4 ml-xl-0" alt="">
+                </a>
+            </div>
+            <div class="col-12 col-md-3 pt-md-1">
+                <p class="text-md-right text-white pt-md-3 ">Copyright © {{anoActual}} LCC Espacios.</p>
+            </div>
+        </div>
+    </section>
+</footer>

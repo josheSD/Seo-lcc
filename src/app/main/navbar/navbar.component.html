@@ -1,0 +1,79 @@
+<div class="contenedor-nav" id="mySidenav" class="sidenav">
+    <div class="header-statico-navbar">
+    </div>
+    <div class="container-fluid">
+            <!--CELULAR NAVBAR-->
+            <ul class="navbar-nav ml-auto" id="navbar-movil">
+                    <li class="nav-item" (click)="eventoRuta()" (click)="CloseOpenNav()"><a  [routerLink]="['/espacios']" #li1 id="lli1" (click)="Pintar(li1,1)"  class="nav-link t-white ml-4  mr-md-2 mr-lg-5 mt-0 p-navbar" [innerHTML]="'NAVBAR.Opcion1.TextoPublicada' | translate"></a></li>
+                    <li class="nav-item" (click)="eventoRuta()" (click)="CloseOpenNav()"><a  [routerLink]="['/salas']" #li2 id="lli2" (click)="Pintar(li2,1)"  class="nav-link t-white  ml-4 mr-md-2 mr-lg-5 p-navbar" [innerHTML]="'NAVBAR.Opcion2.TextoPublicada' | translate"></a></li>
+                    <li class="nav-item" (click)="eventoRuta()" (click)="CloseOpenNav()"><a  [routerLink]="['/comunidad']" #li3 id="lli3" (click)="Pintar(li3,1)"  class="nav-link t-white ml-4 mr-md-2 mr-lg-5 p-navbar" [innerHTML]="'NAVBAR.Opcion3.TextoPublicada' | translate"></a></li>
+                    <li class="nav-item" (click)="eventoRuta()" (click)="CloseOpenNav()"><a  [routerLink]="['/nosotros']" #li4 id="lli4" (click)="Pintar(li4,1)"  class="nav-link t-white ml-4 mr-md-2 mr-lg-5 p-navbar" [innerHTML]="'NAVBAR.Opcion4.TextoPublicada' | translate"></a></li>
+                    <li class="nav-item" (click)="eventoRuta()" (click)="CloseOpenNav()">
+                        <a [routerLink]="['/escribenos']" #li5 #li5 (click)="Pintar(li5,1)" class="nav-link t-white text ml-3 p-navbar">
+                            <img src="../../../assets/imagenes/adicional/U-mensajeria-Blanco.png" class="w-30 imagen-contact d-none d-md-block" style="margin-bottom: 2px;" alt="">
+                            &nbsp; 
+                            <span id="lliE" [innerHTML]="'NAVBAR.Opcion5.TextoPublicada' | translate"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="ml-4 mt-4 p-ayuda" [innerHTML]="'NAVBAR.Ayuda.TextoPublicada' | translate">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="ml-4 p-telefono-navbar mt-2">
+                            <img src="../../../assets/imagenes/U-Telefono.png"  class="img-fluid" alt=""> (+511) 222 3334
+                        </a>
+                    </li>
+            </ul>
+    </div>
+    <!--TABLE LAPTO + NAVBAR-->
+    <nav class="navbar navbar-light fixed-top navbar-expand-md" id="navbar" (window:resize)="onResize($event.target.innerWidth)" (window:scroll)="EventoScrollBottom($event)" >
+            <div class="container-fluid ">
+                <a  [routerLink]="['/']" class="navbar-brand" id="p-logo" #logo (click)="eventoRuta('p')"> 
+                    <img [src]="objectTemporal.LogotipoImagenBlanco.ImagenPublicada | imagen:'menu'"  id="logo-1" class="img-fluid w-50  my-responsive logo-1">
+                    <img [src]="objectTemporal.LogotipoImagenNegro.ImagenPublicada | imagen:'menu'"  id="logo-2" class="img-fluid w-50  my-responsive logo-2">
+                </a> 
+                <span class="d-block d-md-none">
+                    <img src="../../../assets/imagenes/U-Idiomas.png" class="img-fluid">
+                    &nbsp;<p class="d-inline"><span (click)="cambiarIdioma2('en')" class="pointer">Eng</span> &nbsp;|&nbsp; <span (click)="cambiarIdioma2('es')" class="pointer">Es</span> </p>&nbsp;&nbsp;
+                    <img src="../../../assets/imagenes/U-hamburguesa.png" class="img-fluid pointer" id="btnNav" (click)="CloseOpenNav()">
+                    <img src="../../../assets/imagenes/U-equis.png" class="img-fluid pointer d-none" id="btnNav2" (click)="CloseOpenNav()">
+                </span>
+                <!-- menu inicio -->
+                <div class="collapse navbar-collapse d-none d-md-block" id="menu-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" (click)="eventoRuta()" ><a [routerLink]="['/espacios']" #li6 id="lli6" (click)="Pintar(li6,2)"  class="nav-link t-white  mr-md-2 mr-lg-3" [innerHTML]="'NAVBAR.Opcion1.TextoPublicada' | translate"></a></li>
+                        <li class="nav-item" (click)="eventoRuta()" ><a [routerLink]="['/salas']" #li7 id="lli7" (click)="Pintar(li7,2)"  class="nav-link t-white  mr-md-2 mr-lg-3" [innerHTML]="'NAVBAR.Opcion2.TextoPublicada' | translate"></a></li>
+                        <li class="nav-item" (click)="eventoRuta()" ><a [routerLink]="['/comunidad']" #li8 id="lli8" (click)="Pintar(li8,2)"  class="nav-link t-white  mr-md-2 mr-lg-3" [innerHTML]="'NAVBAR.Opcion3.TextoPublicada' | translate"></a></li>
+                        <li class="nav-item" (click)="eventoRuta()" ><a [routerLink]="['/nosotros']" #li9 id="lli9" (click)="Pintar(li9,2)"  class="nav-link t-white mr-md-2 mr-lg-3" [innerHTML]="'NAVBAR.Opcion4.TextoPublicada' | translate"></a></li>
+                        <li class="nav-item">   
+                            <a href="javascript:void(0)"   class="nav-link t-white mr-md-2 mr-lg-3">
+                                    <img src="../../../assets/imagenes/U-Idiomas.png" class="imagen-navbar1 img-fluid">
+                                    <img src="../../../assets/imagenes/U-traductor-blanco.png" class="imagen-navbar2 img-fluid"  alt="">
+                                    &nbsp;
+                                    <mat-form-field appearance="none" style="width:55px">
+                                        <mat-label class="m-label label-navbar t-white">Esp</mat-label>
+                                        <mat-select #langSelect (valueChange)="cambiarIdioma(langSelect.value)">
+                                            <mat-option *ngFor="let lang of langs" [value]="lang.value">
+                                                    {{lang.nombre}}
+                                            </mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                            </a>
+                        </li>
+                        <li class="nav-item" (click)="eventoRuta()" >
+                            <a [routerLink]="['/escribenos']" #li10 id="lli10" (click)="Pintar(li10,2)"  class="nav-link t-white text">
+                                <img src="../../../assets/imagenes/adicional/U-mensajeria-Blanco.png" class="w-30 imagen-contact" style="margin-bottom: 2px;" alt="">
+                                &nbsp; 
+                                <span style="color:white !important" [innerHTML]="'NAVBAR.Opcion5.TextoPublicada' | translate"></span>
+                            </a></li>
+                    </ul>
+                </div>
+                <!-- menu fin-->
+            </div>
+    </nav>
+</div>
+
+
+
+

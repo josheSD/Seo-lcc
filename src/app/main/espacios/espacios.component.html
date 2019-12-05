@@ -1,0 +1,384 @@
+<div id="main" *ngIf="objectTemporal.FondoImagen">
+    <div class="header-statico">
+    </div>
+            
+    <!-- <section class="espacios">
+    </section> -->
+
+    <div class="bg-principal">
+        <picture>
+            <source class="principal" [srcset]="objectTemporal.FondoImagen.ImagenPublicada | imagen:'espacios'" media="(min-width:1024px)"> 
+            <source class="secundario"  [srcset]="objectTemporal.FondoImagen768.ImagenPublicada | imagen:'espacios'" media="(min-width:768px)"> 
+            <source class="terciario" [srcset]="objectTemporal.FondoImagen425.ImagenPublicada | imagen:'espacios'" media="(min-width:320px)">
+            <img  class="cuarta"  [src]="objectTemporal.FondoImagen.ImagenPublicada | imagen:'espacios'" alt="espacios">
+        </picture>
+    </div>
+    
+    <div class="bg-gray">
+        <section class="container spacing-section">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 d-flex align-items-center justify-content-center">
+                                <h2 class="font-weight-bold text-center text-all" [innerHTML]="'ESPACIO.Titulo.TextoPublicada' | translate"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+            
+    <section class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-width order-1 order-md-0">
+                    <img [src]="objectTemporal.SubImagen1.ImagenPublicada | imagen:'espacios'" class="img-fluid" alt="espacio colaborativo">
+                </div>
+                <article class="spacing-section col-12 col-sm-6 d-flex align-items-center justify-content-center flex-column order-2 order-md-0">
+                        <div class="mx-lg-5 px-lg-5">
+                            <h2 class="m-0 pb-4 font-weight-bold text-center text-all" [innerHTML]="'ESPACIO.SubTitulo1.TextoPublicada' | translate"></h2>
+                            <p class="p-center mx-lg-4 px-lg-3 mx-sm-0 my-0" [innerHTML]="'ESPACIO.SubContent1.TextoPublicada' | translate">
+                            </p>
+                            <!-- <p class="p-center mx-lg-4 px-lg-3  mx-sm-0" [innerHTML]="'Espacios.Subtitulo1ContIdeal' | translate">
+                            </p> -->
+                        </div>
+                </article>
+            </div>
+    </section>
+    
+    <section class="container-fluid">
+        <div class="row">
+            <article class="spacing-section col-12 col-sm-6 d-flex align-items-center justify-content-center flex-column order-2 order-md-0">
+                    <div class="mx-lg-5 px-lg-5">
+                        <h2 class="m-0 pb-4 font-weight-bold text-center text-all" [innerHTML]="'ESPACIO.SubTitulo2.TextoPublicada' | translate"></h2>
+                        <p class="p-center mx-lg-4 px-lg-3 mx-sm-0 my-0" [innerHTML]="'ESPACIO.SubContent2.TextoPublicada' | translate">
+                        </p>
+                        <!-- <p class="p-center mx-lg-4 px-lg-3  mx-sm-0" [innerHTML]="'Espacios.Subtitulo2ContIdeal' | translate">
+                        </p> -->
+                    </div>
+            </article>
+            <div class="col-12 col-sm-6 col-width order-1 order-md-0">
+                <img [src]="objectTemporal.SubImagen2.ImagenPublicada | imagen:'espacios'" class="img-fluid" alt="espacio privado">
+            </div>
+        </div>
+    </section>
+    
+    <section class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-width order-1 order-md-0">
+                    <img [src]="objectTemporal.SubImagen3.ImagenPublicada | imagen:'espacios'" class="img-fluid" alt="espacio flex">
+                </div>
+                <article class="spacing-section col-12 col-sm-6 d-flex align-items-center justify-content-center flex-column order-2 order-md-0">
+                        <div class="mx-lg-5 px-lg-5">
+                            <h2 class="m-0 pb-4 font-weight-bold text-center text-all" [innerHTML]="'ESPACIO.SubTitulo3.TextoPublicada' | translate"></h2>
+                            <p class="p-center mx-lg-4 px-lg-3 mx-sm-0 my-0" [innerHTML]="'ESPACIO.SubContent3.TextoPublicada' | translate">
+                            </p>
+                            <!-- <p class="p-center mx-lg-4 px-lg-3  mx-sm-0" [innerHTML]="'Espacios.Subtitulo3ContIdeal' | translate">
+                            </p> -->
+                        </div>
+                </article>
+            </div>
+    </section>
+
+    <div class="container d-md-none">
+        <div class="row">
+            <div class="col-10 offset-1 col-sm-12 offset-sm-0 px-0">
+                <hr class="m-0 p-0" style="border-bottom:1px solid #B2B2B2">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Nuevo Espacios Cuatro -->
+    <section class="container-fluid" *ngIf="articuloOpcional">
+        <div class="row">
+            <article class="col-12 col-sm-6 d-flex align-items-center justify-content-center flex-column  order-2 order-md-0 py-4">
+                    <div class="mx-lg-5 px-lg-5">
+                        <h2 class="font-weight-bold text-center text-all pb-2" [innerHTML]="'ESPACIO.SubTitulo4.TextoPublicada' | translate"></h2>
+                        <p class="p-center mx-lg-4 px-lg-3 mx-sm-0" [innerHTML]="'ESPACIO.SubContent4.TextoPublicada' | translate">
+                        </p>
+                    </div>
+            </article>
+            <div class="col-12 col-sm-6 col-width order-1 order-md-0">
+                <img [src]="objectTemporal.SubImagen4.ImagenPublicada | imagen:'espacios'" class="img-fluid" alt="espacio opcional">
+            </div>
+        </div>
+    </section>
+    
+    <section class="container spacing-section pb-4">
+            <div class="row">
+                <div class="col-12 col-sm-8 offset-sm-2 text-center">
+                    <h2 class="font-weight-bold text-all" [innerHTML]="'ESPACIO.ServicioTitulo.TextoPublicada' | translate"></h2>
+                </div>
+            </div>
+    </section>
+            
+    <div class="container">
+            <div class="row spacing-section pt-0">
+                <div class="col-12 px-0">
+                        <section class="contenedor text-center">
+                                <div class="contenido-principal">
+                                    <article class="entrada margin-bottom-4">
+                                        <img [src]="objectTemporal.ServicioSubImagen1.ImagenPublicada | imagen:'espacios'" alt="dirección comercial en la mejor zona logística">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo1.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada margin-bottom-4">
+                                        <img [src]="objectTemporal.ServicioSubImagen2.ImagenPublicada | imagen:'espacios'" alt="recepción y office manager">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo2.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada margin-bottom-4">
+                                        <img [src]="objectTemporal.ServicioSubImagen3.ImagenPublicada | imagen:'espacios'" alt="mantenimiento y limpieza">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo3.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada margin-bottom-4">
+                                        <img [src]="objectTemporal.ServicioSubImagen4.ImagenPublicada | imagen:'espacios'" alt="seguridad">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo4.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada margin-bottom-4">
+                                        <img [src]="objectTemporal.ServicioSubImagen5.ImagenPublicada | imagen:'espacios'" alt="cafeteria">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo5.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada">
+                                        <img [src]="objectTemporal.ServicioSubImagen6.ImagenPublicada | imagen:'espacios'" alt="areas comunes">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo6.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada">
+                                        <img [src]="objectTemporal.ServicioSubImagen7.ImagenPublicada | imagen:'espacios'" alt="lockers">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo7.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada">
+                                        <img [src]="objectTemporal.ServicioSubImagen8.ImagenPublicada | imagen:'espacios'" alt="soporte it">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo8.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada">
+                                        <img [src]="objectTemporal.ServicioSubImagen9.ImagenPublicada | imagen:'espacios'" alt="fotocopiadoras e impresiones">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo9.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada">
+                                        <img [src]="objectTemporal.ServicioSubImagen10.ImagenPublicada | imagen:'espacios'" alt="horario 24/7">
+                                        <div class="contenido">
+                                            <h5 [innerHTML]="'ESPACIO.ServicioSubTitulo10.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    
+                                </div>
+                        </section>
+                </div>
+            </div>
+    </div>
+    
+    
+    <section class="myBackground spacing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="row">
+                            <div class="col-2 offset-5 col-md-2 offset-md-0 px-0 text-center">
+                                <img [src]="objectTemporal.InvitamosImagenLogo.ImagenPublicada | imagen:'espacios'" class="img-fluid w-50 pt-3 pt-md-2 pt-lg-2 pb-2 pb-md-0" alt="flecha">
+                            </div>
+                            <div class="col-10 offset-1 col-md-10 offset-md-0 px-0">
+                                <p class="text-center text-md-left text-white h3" [innerHTML]="'ESPACIO.InvitamosTitulo.TextoPublicada' | translate">!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                        <button class="btn btn-primary btn-principal" (click)="routerContacto()" [innerHTML]="'ESPACIO.InvitamosButton.TextoPublicada' | translate"></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+        
+    <section class="preguntas spacing-section">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-12">
+                    <h2 class="text-center font-weight-bold text-all" [innerHTML]="'ESPACIO.PreguntasTitulo.TextoPublicada' | translate"></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 text-left">
+    
+                    <article>
+                        <div class="pr-lg-3">
+                            <div class="row my-2 pt-3 pb-2 bg-white">
+                                <div class="col-10 ">
+                                    <p class="px-md-3">
+                                        <b [innerHTML]="'ESPACIO.PreguntasSubtitulo1.TextoPublicada' | translate"></b>
+                                    </p>
+                                </div>
+                                <div class="col-2">
+                                    <a  data-toggle="collapse" href="#pregunta1" (click)="aleatorio(elemento1)" role="button" aria-expanded="false"  aria-controls="pregunta1">
+                                        <div class="cross-palo ml-lg-4" #elemento1 ></div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="collapse" id="pregunta1">
+                                    <div class="card card-body border-0" [innerHTML]="'ESPACIO.PreguntasRespuesta1.TextoPublicada' | translate">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <div class="pr-lg-3">
+                            <div class="row my-2 pt-3 pb-2 bg-white">
+                                <div class="col-10 ">
+                                    <p class="px-md-3">
+                                        <b [innerHTML]="'ESPACIO.PreguntasSubtitulo3.TextoPublicada' | translate"></b>
+                                    </p>
+                                </div>
+                                <div class="col-2">
+                                    <a  data-toggle="collapse" href="#pregunta3" (click)="aleatorio(elemento3)" role="button" aria-expanded="false" aria-controls="pregunta3">
+                                        <div class="cross-palo ml-lg-4" #elemento3 ></div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="collapse" id="pregunta3">
+                                    <div class="card card-body border-0" [innerHTML]="'ESPACIO.PreguntasRespuesta3.TextoPublicada' | translate">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <div class="pr-lg-3">
+                            <div class="row my-2 pt-3 pb-2 bg-white">
+                                <div class="col-10 ">
+                                    <p class="px-md-3">
+                                        <b [innerHTML]="'ESPACIO.PreguntasSubtitulo5.TextoPublicada' | translate"></b>
+                                    </p>
+                                </div>
+                                <div class="col-2">
+                                    <a  data-toggle="collapse" href="#pregunta5" (click)="aleatorio(elemento5)" role="button" aria-expanded="false" aria-controls="pregunta5">
+                                            <div class="cross-palo ml-lg-4" #elemento5 ></div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="collapse" id="pregunta5">
+                                    <div class="card card-body border-0" [innerHTML]="'ESPACIO.PreguntasRespuesta5.TextoPublicada' | translate">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+    
+                </div>
+                <div class="col-12 col-md-6 text-left">
+                        
+                    <article>
+                        <div class="pl-lg-3">
+                                <div class="row my-2 pt-3 pb-2 bg-white">
+                                    <div class="col-10 ">
+                                        <p class="px-md-3">
+                                            <b [innerHTML]="'ESPACIO.PreguntasSubtitulo2.TextoPublicada' | translate"></b>
+                                        </p>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <a  data-toggle="collapse" href="#pregunta2" (click)="aleatorio(elemento2)" role="button" aria-expanded="false" aria-controls="pregunta2">
+                                                <div class="cross-palo ml-lg-4" #elemento2 ></div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                
+                                <div class="collapse" id="pregunta2">
+                                    <div class="card card-body border-0" [innerHTML]="'ESPACIO.PreguntasRespuesta2.TextoPublicada' | translate">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <div class="pl-lg-3">
+                                <div class="row my-2 pt-3 pb-2 bg-white">
+                                    <div class="col-10 ">
+                                        <p class="px-md-3">
+                                            <b [innerHTML]="'ESPACIO.PreguntasSubtitulo4.TextoPublicada' | translate"></b>
+                                        </p>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <a  data-toggle="collapse" href="#pregunta4" (click)="aleatorio(elemento4)" role="button" aria-expanded="false" aria-controls="pregunta4">
+                                                <div class="cross-palo ml-lg-4" #elemento4 ></div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                
+                                <div class="collapse" id="pregunta4">
+                                    <div class="card card-body border-0" [innerHTML]="'ESPACIO.PreguntasRespuesta4.TextoPublicada' | translate">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <div class="pl-lg-3">
+                                <div class="row my-2 pt-3 pb-2 bg-white">
+                                    <div class="col-10 ">
+                                        <p class="px-md-3">
+                                            <b [innerHTML]="'ESPACIO.PreguntasSubtitulo6.TextoPublicada' | translate"></b>
+                                        </p>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <a  data-toggle="collapse" href="#pregunta6" (click)="aleatorio(elemento6)" role="button" aria-expanded="false" aria-controls="pregunta6">
+                                                <div class="cross-palo ml-lg-4" #elemento6 ></div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                
+                                <div class="collapse" id="pregunta6">
+                                    <div class="card card-body border-0" [innerHTML]="'ESPACIO.PreguntasRespuesta6.TextoPublicada' | translate">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+</div>

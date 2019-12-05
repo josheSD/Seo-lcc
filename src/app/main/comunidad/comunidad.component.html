@@ -1,0 +1,1116 @@
+<div id="main">
+    <div class="header-statico">
+    </div>
+    
+    <!-- <section class="comunidad-1">
+    </section> -->
+
+    <div class="bg-principal comunidad-1">
+        <picture>
+            <source class="principal" [srcset]="objectTemporal.Comunidad1FondoImagen.ImagenPublicada | imagen:'comunidad'" media="(min-width:1024px)"> 
+            <source class="secundario" [srcset]="objectTemporal.Comunidad1FondoImagen768.ImagenPublicada | imagen:'comunidad'" media="(min-width:768px)"> 
+            <source class="terciario" [srcset]="objectTemporal.Comunidad1FondoImagen425.ImagenPublicada | imagen:'comunidad'" media="(min-width:320px)">
+            <img  class="cuarta" [src]="objectTemporal.Comunidad1FondoImagen.ImagenPublicada | imagen:'comunidad'" alt="comunidad operadores logisticos">
+        </picture>
+    </div>
+    
+    <!-- <section class="comunidad-2"> 
+    </section> -->
+
+    <div class="bg-principal comunidad-2">
+        <picture>
+            <source class="principal" [srcset]="objectTemporal.Comunidad2FondoImagen.ImagenPublicada | imagen:'comunidad'" media="(min-width:1024px)"> 
+            <source class="secundario" [srcset]="objectTemporal.Comunidad2FondoImagen768.ImagenPublicada | imagen:'comunidad'" media="(min-width:768px)"> 
+            <source class="terciario" [srcset]="objectTemporal.Comunidad2FondoImagen425.ImagenPublicada | imagen:'comunidad'" media="(min-width:320px)">
+            <img  class="cuarta" [src]="objectTemporal.Comunidad2FondoImagen.ImagenPublicada | imagen:'comunidad'" alt="comunidad exportadores importadores">
+        </picture>
+    </div>
+    
+    <!-- <section class="comunidad-3"> 
+    </section> -->
+
+    <div class="bg-principal comunidad-3">
+        <picture>
+            <source class="principal" [srcset]="objectTemporal.Comunidad3FondoImagen.ImagenPublicada | imagen:'comunidad'" media="(min-width:1024px)"> 
+            <source class="secundario" [srcset]="objectTemporal.Comunidad3FondoImagen768.ImagenPublicada | imagen:'comunidad'" media="(min-width:768px)"> 
+            <source class="terciario" [srcset]="objectTemporal.Comunidad3FondoImagen425.ImagenPublicada | imagen:'comunidad'" media="(min-width:320px)">
+            <img  class="cuarta" [src]="objectTemporal.Comunidad3FondoImagen.ImagenPublicada | imagen:'comunidad'" alt="comunidad otras instituciones">
+        </picture>
+    </div>
+    
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-4 col-md-4 px-0 myBackground3 mostrar-div shadow-caja div1" id="p-div"  #div1 (click)="mostrarInformacion('1',div1)">
+                <div class="row mx-0 py-2 py-md-3 py-lg-4">
+                    <div class="col-12 col-lg-5 d-flex align-items-center justify-content-end">
+                        <img [src]="objectTemporal.Comunidad1SeccionImagenBlack.ImagenPublicada | imagen:'comunidad'" class="comunidad1-1 img-fluid img-comunidad2" alt="operadores logisticos negro">
+                        <img [src]="objectTemporal.Comunidad1SeccionImagenWhite.ImagenPublicada | imagen:'comunidad'" class="comunidad1-2 img-fluid img-comunidad2" alt="operadores logisticos blanco">
+                    </div>
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-start">
+                        <h3 class="p-comunidad pt-2 pt-lg-0 font-weight-bold img-comunidad-bottom" [innerHTML]="'COMUNIDAD.Comunidad1SeccionTitulo.TextoPublicada' | translate"></h3>
+                        <!-- <p class="text-justify d-none d-md-block" [innerHTML]="'COMUNIDA.Subtitulo1Cont' | translate"></p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-md-4 px-0  myBackground3 mostrar-div shadow-caja div2" #div2 (click)="mostrarInformacion('2',div2)">
+                <div class="row mx-0 py-2 py-md-3 py-lg-4">
+                    <div class="col-12 col-lg-5 d-flex align-items-center justify-content-end">
+                        <img [src]="objectTemporal.Comunidad2SeccionImagenBlack.ImagenPublicada | imagen:'comunidad'" class="comunidad2-1 img-fluid img-comunidad" alt="exportadores importadores negro">
+                        <img [src]="objectTemporal.Comunidad2SeccionImagenWhite.ImagenPublicada | imagen:'comunidad'" class="comunidad2-2 img-fluid img-comunidad" alt="exportadores importadores blanco">
+                    </div>
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-start">
+                        <h3 class="p-comunidad pt-2 pt-lg-0 font-weight-bold img-comunidad-bottom" [innerHTML]="'COMUNIDAD.Comunidad2SeccionTitulo.TextoPublicada' | translate"></h3>
+                        <!-- <p class="text-justify d-none d-md-block" [innerHTML]="'COMUNIDA.Subtitulo2Cont' | translate"></p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-md-4 px-0  myBackground3 mostrar-div shadow-caja div3"  #div3 (click)="mostrarInformacion('3',div3)">
+                <div class="row mx-0 py-2 py-md-3 py-lg-4">
+                    <div class="col-12 col-lg-5 d-flex align-items-center justify-content-end">
+                        <img [src]="objectTemporal.Comunidad3SeccionImagenBlack.ImagenPublicada | imagen:'comunidad'" class="comunidad3-1 img-fluid img-comunidad" alt="otras instituciones negro">
+                        <img [src]="objectTemporal.Comunidad3SeccionImagenWhite.ImagenPublicada | imagen:'comunidad'" class="comunidad3-2 img-fluid img-comunidad" alt="otras instituciones blanco">
+                    </div>
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-start">
+                        <h3 class="p-comunidad pt-2 pt-lg-0 font-weight-bold img-comunidad-bottom" [innerHTML]="'COMUNIDAD.Comunidad3SeccionTitulo.TextoPublicada' | translate"></h3>
+                        <!-- <p class="text-justify d-none d-md-block" [innerHTML]="'COMUNIDA.Subtitulo3Cont' | translate"></p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Tercero -->
+    <div class="info informacion-3">
+
+        <div class="bg-gray">
+            <section class="container spacing-section">
+                    <div class="row">
+                        <div class="col-12 d-flex align-items-center justify-content-center">
+                            <h2 class="text-center font-weight-bold text-all" [innerHTML]="'COMUNIDAD.Comunidad3Titulo.TextoPublicada' | translate"></h2>
+                        </div>
+                    </div>
+            </section>
+        </div>
+        <main class="principal">
+            
+            <section class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-width order-1 order-md-0">
+                            <img [src]="objectTemporal.Comunidad3SubImagen1.ImagenPublicada | imagen:'comunidad'" class="img-fluid pb-2 pb-md-0" alt="personas">
+                        </div>
+                        <article class="spacing-section col-12 col-sm-6 d-flex align-items-center justify-content-center text-center order-2 order-md-0">
+                                <div class="mx-lg-5 px-lg-5 py-2">
+                                    <h2 class="font-weight-bold text-all pb-4 my-0" [innerHTML]="'COMUNIDAD.Comunidad3SubTitulo1.TextoPublicada' | translate"></h2>
+                                    <p class="px-3 mx-lg-4 px-lg-2 py-0 my-0" [innerHTML]="'COMUNIDAD.Comunidad3SubContent1.TextoPublicada' | translate">
+                                        
+                                    </p>
+                                </div>
+                        </article>
+                    </div>
+            </section>
+        
+            <section class="container-fluid">
+                <div class="row">
+                    <article class="spacing-section col-12 col-sm-6 d-flex align-items-center justify-content-center text-center order-2 order-md-0">
+                            <div class="mx-lg-5 px-lg-5 py-2">
+                                <h2 class="font-weight-bold text-all pb-4 my-0" [innerHTML]="'COMUNIDAD.Comunidad3SubTitulo2.TextoPublicada' | translate"></h2>
+                                <p class="px-3 mx-lg-4 px-lg-2 py-0 my-0" [innerHTML]="'COMUNIDAD.Comunidad3SubContent2.TextoPublicada' | translate">
+                                        
+                                </p>
+                            </div>
+                    </article>
+                    <div class="col-12 col-sm-6 col-width order-1 order-md-0">
+                        <img [src]="objectTemporal.Comunidad3SubImagen2.ImagenPublicada | imagen:'comunidad'" class="img-fluid pb-2 pb-md-0" alt="pymes">
+                    </div>
+                </div>
+            </section>
+        
+            <section class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-width order-1 order-md-0">
+                            <img [src]="objectTemporal.Comunidad3SubImagen3.ImagenPublicada | imagen:'comunidad'" class="img-fluid pb-2 pb-md-0" alt="corporaciones">
+                        </div>
+                        <article class="spacing-section col-12 col-sm-6 d-flex align-items-center justify-content-center text-center order-2 order-md-0">
+                                <div class="mx-lg-5 px-lg-5 py-2">
+                                    <h2 class="font-weight-bold text-all pb-4 my-0"  [innerHTML]="'COMUNIDAD.Comunidad3SubTitulo3.TextoPublicada' | translate"></h2>
+                                    <p class="px-3 mx-lg-4 px-lg-2 py-0 my-0" [innerHTML]="'COMUNIDAD.Comunidad3SubContent3.TextoPublicada' | translate">
+                                            
+                                    </p>
+                                </div>
+                        </article>
+                    </div>
+            </section>
+
+            <!-- Cuarta Seccion Opcional -->
+            <section class="container-fluid" *ngIf="articuloOpcional">
+                <div class="row">
+                    <article class="spacing-section col-12 col-sm-6 d-flex align-items-center justify-content-center text-center order-2 order-md-0">
+                            <div class="mx-lg-5 px-lg-5 py-2">
+                                <h2 class="font-weight-bold text-all pb-4 my-0" [innerHTML]="'COMUNIDAD.Comunidad3SubTitulo4.TextoPublicada' | translate"></h2>
+                                <p class="px-3 mx-lg-4 px-lg-2 py-0 my-0" [innerHTML]="'COMUNIDAD.Comunidad3SubContent4.TextoPublicada' | translate">
+                                        
+                                </p>
+                            </div>
+                    </article>
+                    <div class="col-12 col-sm-6 col-width order-1 order-md-0">
+                        <img [src]="objectTemporal.Comunidad3SubImagen4.ImagenPublicada | imagen:'comunidad'" class="img-fluid pb-2 pb-md-0" alt="beneficio opcional">
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <div class="container d-md-none">
+            <div class="row">
+                <div class="col-10 offset-1 col-sm-12 offset-sm-0 px-0">
+                    <hr class="m-0 p-0" style="border-bottom:1px solid #B2B2B2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Beneficios -->
+        <section class="container spacing-section">
+            <div class="row">
+                <div class="col-12 col-sm-8 offset-sm-2 text-center">
+                    <h2 class="font-weight-bold text-all mb-4" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioTitulo.TextoPublicada' | translate"></h2>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-1 px-0 d-block d-md-none">
+                        <!-- flecha izquierda -->
+                        <img src="../../../assets/imagenes/U-flecha-izquierda.png" class="pointer hflecha-izquierda" (click)="DireccionC3('Iz')" alt="flecha">
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC3">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad3BeneficioSubImagen1.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="networking">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubTitulo1.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubContent1.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC3">
+                            <div class="card border-0">
+                                <div class="card-title">
+                                    <img [src]="objectTemporal.Comunidad3BeneficioSubImagen2.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="suministros">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-subtitle">
+                                        <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubTitulo2.TextoPublicada' | translate"></h5>
+                                    </div>
+                                    <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubContent2.TextoPublicada' | translate">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC3">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad3BeneficioSubImagen3.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="menores costos">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubTitulo3.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubContent3.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC3">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad3BeneficioSubImagen4.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="ubicacion estrategica">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubTitulo4.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubContent4.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1 px-0 d-block d-md-none">
+                        <!-- flecha derecha  -->
+                        <img src="../../../assets/imagenes/U-flecha-derecha.png" class="pointer hflecha-derecha" (click)="DireccionC3('De')" alt="flecha">
+                    </div>
+        
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad3BeneficioSubImagen2.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="suministros">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubTitulo2.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubContent2.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad3BeneficioSubImagen3.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="menores costos">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubTitulo3.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubContent3.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad3BeneficioSubImagen4.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="ubicacion estrategica">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubTitulo4.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad3BeneficioSubContent4.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 col-sm-12 offset-sm-0 px-0">
+                    <hr class="m-0 p-0" style="border-bottom:1px solid #B2B2B2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicios -->
+        <section class="container spacing-section pb-4">
+            <div class="row">
+                <div class="col-12 col-sm-8 offset-sm-2 text-center">
+                    <h2 class="font-weight-bold text-all my-0" [innerHTML]="'COMUNIDAD.Comunidad3ServicioTitulo.TextoPublicada' | translate"></h2>
+                </div>
+            </div>
+        </section>
+            
+        <section class="container">
+        <div class="row spacing-section pt-0">
+            <div class="col-12 px-0">
+                <section class="contenedor text-center">
+                    <div class="contenido-principal">
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen1.ImagenPublicada | imagen:'comunidad'" alt="internet fibra optica">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo1.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen2.ImagenPublicada | imagen:'comunidad'" alt="recepcion y office manager">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo2.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen3.ImagenPublicada | imagen:'comunidad'" alt="mantenimiento y limpieza">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo3.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen4.ImagenPublicada | imagen:'comunidad'" alt="seguridad">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo4.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen5.ImagenPublicada | imagen:'comunidad'" alt="cafetería">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo5.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen6.ImagenPublicada | imagen:'comunidad'" alt="areas comunes">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo6.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen7.ImagenPublicada | imagen:'comunidad'" alt="lockers">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo7.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen8.ImagenPublicada | imagen:'comunidad'" alt="soporte it">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo8.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen9.ImagenPublicada | imagen:'comunidad'" alt="fotocopiadoras e impresiones">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo9.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad3ServicioSubImagen10.ImagenPublicada | imagen:'comunidad'" alt="horario 24/7">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad3ServicioSubTitulo10.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+        </section>
+
+        <!-- Soluciones para tu empresa  -->
+        <section class="myBackground2 spacing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-4">
+                        <h2 class="text-center font-weight-bold text-all my-0" [innerHTML]="'COMUNIDAD.Comunidad3SolucionesTitulo.TextoPublicada' | translate"></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 px-0 pr-lg-4">
+                        <div class="card border-0 myBackground2">
+                            <img class="card-img-top" [src]="objectTemporal.Comunidad3SolucionesSubImagen1.ImagenPublicada | imagen:'comunidad'"  class="rounded-0 comunidad-main-imagen" alt="espacios">
+                            <div class="py-lg-0 spacing-section-tablet card-body myBackground2 text-center"> 
+                                <h4 class="card-title text-center text-md-left font-weight-bold pb-4 pt-sm-0 pt-lg-4 my-0"  [innerHTML]="'COMUNIDAD.Comunidad3SolucionesSubTitulo1.TextoPublicada' | translate"></h4>
+                                <p class="card-text text-center text-md-left mb-4" [innerHTML]="'COMUNIDAD.Comunidad3SolucionesSubContent1.TextoPublicada' | translate">
+                                </p>
+                                <button class="btn-principal text-white"  (click)="routerEspacios()" [innerHTML]="'COMUNIDAD.Comunidad3SolucionesButton1.TextoPublicada' | translate"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 px-0 pl-lg-4">
+                        <div class="card border-0 myBackground2">
+                            <img class="card-img-top" [src]="objectTemporal.Comunidad3SolucionesSubImagen2.ImagenPublicada | imagen:'comunidad'" class="rounded-0 comunidad-main-imagen"  alt="salas">
+                            <div class="py-lg-0 spacing-section-tablet pb-0 card-body myBackground2 text-center"> 
+                                <h4 class="card-title text-center text-md-left font-weight-bold pb-4 pt-sm-0 pt-lg-4 my-0" [innerHTML]="'COMUNIDAD.Comunidad3SolucionesSubTitulo2.TextoPublicada' | translate"></h4>
+                                <p class="card-text text-center text-md-left mb-4" [innerHTML]="'COMUNIDAD.Comunidad3SolucionesSubContent2.TextoPublicada' | translate">
+                                </p>
+                                <button class="btn-principal text-white" (click)="routerSalas()" [innerHTML]="'COMUNIDAD.Comunidad3SolucionesButton2.TextoPublicada' | translate"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="myBackground spacing-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8">
+                            <div class="row">
+                                <div class="col-2 offset-5 col-md-2 offset-md-0 px-0 text-center">
+                                    <img [src]="objectTemporal.Comunidad3InvitamosImagenLogo.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-50 pt-3 pt-md-2 pt-lg-2 pb-2 pb-md-0" alt="flecha">
+                                </div>
+                                <div class="col-10 offset-1 col-md-10 offset-md-0 px-0">
+                                    <p class="text-center text-md-left text-white h3" [innerHTML]="'COMUNIDAD.Comunidad3InvitamosTitulo.TextoPublicada' | translate">!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                            <button class="btn btn-primary btn-principal" (click)="routerEscribenos()" [innerHTML]="'COMUNIDAD.Comunidad3InvitamosButton.TextoPublicada' | translate"></button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </div>
+    <!-- Fin Tercero -->
+
+    
+    <!-- Segundo -->
+    <div class="info informacion-2">
+        <div class="segundo">
+                <section class="container spacing-section">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row mx-0">
+                                    <div class="col-lg-8 offset-lg-2 d-flex align-items-center justify-content-center flex-column">
+                                        <h2 class="text-center font-weight-bold text-all pb-4 my-0" [innerHTML]="'COMUNIDAD.Comunidad2Titulo.TextoPublicada' | translate"></h2>
+                                        <p class="text-center my-0" [innerHTML]="'COMUNIDAD.Comunidad2TituloContent.TextoPublicada' | translate"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-12 col-lg-8 offset-lg-2 px-0">
+                                <section class="contenedor text-center">
+                                        <div class="contenido-principal">
+                                            <article class="entrada pt-4">
+                                                <img [src]="objectTemporal.Comunidad2SubImagen1.ImagenPublicada | imagen:'comunidad'" alt="exportadores">
+                                                <div class="contenido">
+                                                    <h5 class="pt-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2SubTitulo1.TextoPublicada' | translate"></h5>
+                                                </div>
+                                            </article>
+                                            <article class="entrada pt-4">
+                                                <img [src]="objectTemporal.Comunidad2SubImagen2.ImagenPublicada | imagen:'comunidad'" alt="importadores">
+                                                <div class="contenido">
+                                                    <h5 class="pt-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2SubTitulo2.TextoPublicada' | translate"></h5>
+                                                </div>
+                                            </article>
+                                            <article class="entrada pt-4">
+                                                <img [src]="objectTemporal.Comunidad2SubImagen3.ImagenPublicada | imagen:'comunidad'" alt="transporte aereo nacional">
+                                                <div class="contenido">
+                                                    <h5 class="pt-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2SubTitulo3.TextoPublicada' | translate" style="font-size:1rem"></h5>
+                                                </div>
+                                            </article>
+                                        </div>
+                                </section>
+                            </div>
+                        </div>
+                    
+                </section>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 col-sm-12 offset-sm-0 px-0">
+                    <hr class="m-0 p-0" style="border-bottom:1px solid #B2B2B2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Beneficios -->
+        <section class="container spacing-section">
+            <div class="row pb-4">
+                <div class="col-12 col-sm-8 offset-sm-2 text-center">
+                    <h2 class="font-weight-bold text-all my-0" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioTitulo.TextoPublicada' | translate"></h2>
+                </div>
+            </div>
+            <div class="row my-0">
+                    <div class="col-1 px-0  d-block d-md-none">
+                        <!-- flecha izquierda -->
+                        <img src="../../../assets/imagenes/U-flecha-izquierda.png" class="pointer hflecha-izquierda" (click)="DireccionC2('Iz')" alt="flecha">
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC2">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad2BeneficioSubImagen1.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="networking">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubTitulo1.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubContent1.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC2">
+                            <div class="card border-0">
+                                <div class="card-title">
+                                    <img [src]="objectTemporal.Comunidad2BeneficioSubImagen2.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="socios estrategicos">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-subtitle">
+                                        <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubTitulo2.TextoPublicada' | translate"></h5>
+                                    </div>
+                                    <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubContent2.TextoPublicada' | translate">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC2">
+                            <div class="card border-0">
+                                <div class="card-title">
+                                    <img [src]="objectTemporal.Comunidad2BeneficioSubImagen3.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="ubicacion estrategica">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-subtitle">
+                                        <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubTitulo3.TextoPublicada' | translate"></h5>
+                                    </div>
+                                    <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubContent3.TextoPublicada' | translate">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC2">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad2BeneficioSubImagen4.ImagenPublicada | imagen:'comunidad'"  class="img-fluid w-100" alt="flexibilidad horaria">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubTitulo4.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubContent4.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1 px-0 d-block d-md-none">
+                        <!-- flecha derecha  -->
+                        <img src="../../../assets/imagenes/U-flecha-derecha.png" class="pointer hflecha-derecha" (click)="DireccionC2('De')" alt="flecha">
+                    </div>
+        
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad2BeneficioSubImagen2.ImagenPublicada | imagen:'comunidad'"  class="img-fluid w-100" alt="socios estrategicos">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubTitulo2.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubContent2.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad2BeneficioSubImagen3.ImagenPublicada | imagen:'comunidad'"  class="img-fluid w-100" alt="ubicacion estrategica">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubTitulo3.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubContent3.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad2BeneficioSubImagen4.ImagenPublicada | imagen:'comunidad'"  class="img-fluid w-100" alt="flexibilidad horaria">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubTitulo4.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad2BeneficioSubContent4.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 col-sm-12 offset-sm-0 px-0">
+                    <hr class="m-0 p-0" style="border-bottom:1px solid #B2B2B2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicios -->
+        <section class="container spacing-section pb-4">
+            <div class="row">
+                <div class="col-12 col-sm-8 offset-sm-2 text-center">
+                    <h2 class="font-weight-bold text-all my-0" [innerHTML]="'COMUNIDAD.Comunidad2ServicioTitulo.TextoPublicada' | translate"></h2>
+                </div>
+            </div>
+        </section>
+            
+        <section class="container spacing-section pt-0">
+        <div class="row">
+            <div class="col-12 px-0">
+                <section class="contenedor text-center">
+                    <div class="contenido-principal">
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen1.ImagenPublicada | imagen:'comunidad'"  alt="direccion comercial en la mejor zona logistica">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo1.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen2.ImagenPublicada | imagen:'comunidad'" alt="recepcion y office manager">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo2.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen3.ImagenPublicada | imagen:'comunidad'" alt="mantenimiento y limpieza">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo3.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen4.ImagenPublicada | imagen:'comunidad'" alt="seguridad">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo4.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada margin-bottom-4">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen5.ImagenPublicada | imagen:'comunidad'" alt="networking">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo5.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen6.ImagenPublicada | imagen:'comunidad'" alt="areas comunes">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo6.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen7.ImagenPublicada | imagen:'comunidad'" alt="lockers">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo7.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen8.ImagenPublicada | imagen:'comunidad'" alt="soporte it">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo8.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen9.ImagenPublicada | imagen:'comunidad'"  alt="fotocopiadoras e impresiones">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo9.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        <article class="entrada">
+                            <img [src]="objectTemporal.Comunidad2ServicioSubImagen10.ImagenPublicada | imagen:'comunidad'" alt="horario 24/7">
+                            <div class="contenido">
+                                <h5 [innerHTML]="'COMUNIDAD.Comunidad2ServicioSubTitulo10.TextoPublicada' | translate"></h5>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+        </section>
+
+        <!-- Soluciones para tu empresa  -->
+        <section class="myBackground2 spacing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-4">
+                        <h2 class="text-center font-weight-bold text-all my-0" [innerHTML]="'COMUNIDAD.Comunidad2SolucionesTitulo.TextoPublicada' | translate"></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 px-0 pr-lg-4">
+                        <div class="card border-0 myBackground2">
+                            <img class="card-img-top" [src]="objectTemporal.Comunidad2SolucionesSubImagen1.ImagenPublicada | imagen:'comunidad'"  class="rounded-0 comunidad-main-imagen" alt="espacios">
+                            <div class="py-lg-0 spacing-section-tablet card-body myBackground2 text-center"> 
+                                <h4 class="card-title text-center text-md-left font-weight-bold pb-4 pt-sm-0 pt-lg-4 my-0"  [innerHTML]="'COMUNIDAD.Comunidad2SolucionesSubTitulo1.TextoPublicada' | translate"></h4>
+                                <p class="card-text text-center text-md-left mb-4" [innerHTML]="'COMUNIDAD.Comunidad2SolucionesSubContent1.TextoPublicada' | translate">
+                                </p>
+                                <button class="btn-principal text-white"  (click)="routerEspacios()" [innerHTML]="'COMUNIDAD.Comunidad2SolucionesButton1.TextoPublicada' | translate"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 px-0 pl-lg-4">
+                        <div class="card border-0 myBackground2">
+                            <img class="card-img-top" [src]="objectTemporal.Comunidad2SolucionesSubImagen2.ImagenPublicada | imagen:'comunidad'" class="rounded-0 comunidad-main-imagen"  alt="salas">
+                            <div class="py-lg-0 spacing-section-tablet pb-0 card-body myBackground2 text-center"> 
+                                <h4 class="card-title text-center text-md-left font-weight-bold pb-4 pt-sm-0 pt-lg-4 my-0" [innerHTML]="'COMUNIDAD.Comunidad2SolucionesSubTitulo2.TextoPublicada' | translate"></h4>
+                                <p class="card-text text-center text-md-left" [innerHTML]="'COMUNIDAD.Comunidad2SolucionesSubContent2.TextoPublicada' | translate">
+                                </p>
+                                <button class="btn-principal text-white" (click)="routerSalas()" [innerHTML]="'COMUNIDAD.Comunidad2SolucionesButton2.TextoPublicada' | translate"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="myBackground spacing-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8">
+                            <div class="row">
+                                <div class="col-2 offset-5 col-md-2 offset-md-0 px-0 text-center">
+                                    <img [src]="objectTemporal.Comunidad2InvitamosImagenLogo.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-50 pt-3 pt-md-2 pt-lg-2 pb-2 pb-md-0" alt="flecha">
+                                </div>
+                                <div class="col-10 offset-1 col-md-10 offset-md-0 px-0">
+                                    <p class="text-center text-md-left text-white h3" [innerHTML]="'COMUNIDAD.Comunidad2InvitamosTitulo.TextoPublicada' | translate">!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                            <button class="btn btn-primary btn-principal" (click)="routerEscribenos()" [innerHTML]="'COMUNIDAD.Comunidad2InvitamosButton.TextoPublicada' | translate"></button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </div>
+    <!-- Fin Segunda -->
+
+    
+    <!-- Primero -->
+    <div class="info informacion-1">
+        <section class="container spacing-section">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row mx-0">
+                            <div class="col-lg-8 offset-lg-2 d-flex align-items-center justify-content-center flex-column">
+                                <h2 class="text-center font-weight-bold text-all pb-4 my-0" [innerHTML]="'COMUNIDAD.Comunidad1Titulo.TextoPublicada' | translate"></h2>
+                                <p class="text-center px-lg-3 my-0" [innerHTML]="'COMUNIDAD.Comunidad1TituloContent.TextoPublicada' | translate"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <section class="contenedor text-center">
+                                <div class="contenido-principal">
+                                    <article class="entrada pt-4">
+                                        <img [src]="objectTemporal.Comunidad1SubImagen1.ImagenPublicada | imagen:'comunidad'" alt="aerolineas">
+                                        <div class="contenido">
+                                            <h5 class="pt-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1SubTitulo1.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada pt-4">
+                                        <img [src]="objectTemporal.Comunidad1SubImagen2.ImagenPublicada | imagen:'comunidad'" alt="agentes de carga">
+                                        <div class="contenido">
+                                            <h5 class="pt-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1SubTitulo2.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    <article class="entrada pt-4">
+                                        <img [src]="objectTemporal.Comunidad1SubImagen3.ImagenPublicada | imagen:'comunidad'" alt="agentes de aduanas">
+                                        <div class="contenido">
+                                            <h5 class="pt-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1SubTitulo3.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                    
+                                    <article class="entrada pt-4">
+                                        <img [src]="objectTemporal.Comunidad1SubImagen4.ImagenPublicada | imagen:'comunidad'" alt="transporte de carga">
+                                        <div class="contenido">
+                                            <h5 class="pt-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1SubTitulo4.TextoPublicada' | translate"></h5>
+                                        </div>
+                                    </article>
+                                </div>
+                        </section>
+                    </div>
+                </div>
+            
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 col-sm-12 offset-sm-0 px-0">
+                    <hr class="m-0 p-0" style="border-bottom:1px solid #B2B2B2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Beneficios -->
+        <section class="container spacing-section">
+            <div class="row pb-4">
+                <div class="col-12 col-sm-8 offset-sm-2 text-center">
+                    <h2 class="font-weight-bold text-all my-0" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioTitulo.TextoPublicada' | translate"></h2>
+                </div>
+            </div>
+            <div class="row my-0">
+                    <div class="col-1 px-0 d-block d-md-none">
+                        <!-- flecha izquierda -->
+                        <img src="../../../assets/imagenes/U-flecha-izquierda.png" class="pointer hflecha-izquierda" (click)="DireccionC1('Iz')" alt="flecha">
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC1">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad1BeneficioSubImagen1.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="ubicación estratégica">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubTitulo1.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubContent1.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC1">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad1BeneficioSubImagen2.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="menores costos">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubTitulo2.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubContent2.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC1">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad1BeneficioSubImagen3.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="horarios 24/7">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubTitulo3.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubContent3.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-6 col-lg-3 sliderC1">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad1BeneficioSubImagen4.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="seguridad">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubTitulo4.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubContent4.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-1 px-0 d-block d-md-none">
+                        <!-- flecha derecha  -->
+                        <img src="../../../assets/imagenes/U-flecha-derecha.png" class="pointer hflecha-derecha" (click)="DireccionC1('De')" alt="flecha">
+                    </div>
+        
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad1BeneficioSubImagen2.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="menores costos">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubTitulo2.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubContent2.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad1BeneficioSubImagen3.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="horarios 24/7">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubTitulo3.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubContent3.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+                        <div class="card border-0">
+                            <div class="card-title">
+                                <img [src]="objectTemporal.Comunidad1BeneficioSubImagen4.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-100" alt="seguridad">
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="card-subtitle">
+                                    <h5 class="py-4 my-0 font-weight-bold" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubTitulo4.TextoPublicada' | translate"></h5>
+                                </div>
+                                <div class="card-text" [innerHTML]="'COMUNIDAD.Comunidad1BeneficioSubContent4.TextoPublicada' | translate">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 col-sm-12 offset-sm-0 px-0">
+                    <hr class="m-0 p-0" style="border-bottom:1px solid #B2B2B2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Servicios -->
+        <section class="container spacing-section pb-4">
+            <div class="row">
+                <div class="col-12 col-sm-8 offset-sm-2 text-center">
+                    <h2 class="font-weight-bold text-all my-0" [innerHTML]="'COMUNIDAD.Comunidad1ServicioTitulo.TextoPublicada' | translate"></h2>
+                </div>
+            </div>
+        </section>
+            
+        <section class="container">
+            <div class="row spacing-section pt-0">
+                <div class="col-12 px-0">
+                    <section class="contenedor text-center">
+                        <div class="contenido-principal">
+                            <article class="entrada margin-bottom-4">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen1.ImagenPublicada | imagen:'comunidad'"  alt="internet fibra optica">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo1.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada margin-bottom-4">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen2.ImagenPublicada | imagen:'comunidad'"  alt="recepcion y office manager">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo2.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada margin-bottom-4">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen3.ImagenPublicada | imagen:'comunidad'"  alt="mantenimiento y limpieza">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo3.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada margin-bottom-4">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen4.ImagenPublicada | imagen:'comunidad'"  alt="seguridad">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo4.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada margin-bottom-4">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen5.ImagenPublicada | imagen:'comunidad'"  alt="cafeteria">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo5.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen6.ImagenPublicada | imagen:'comunidad'"  alt="areas comunes">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo6.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen7.ImagenPublicada | imagen:'comunidad'"  alt="lockers">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo7.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen8.ImagenPublicada | imagen:'comunidad'"  alt="soporte it">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo8.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen9.ImagenPublicada | imagen:'comunidad'"  alt="fotocopiadoras e impresiones">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo9.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            <article class="entrada">
+                                <img [src]="objectTemporal.Comunidad1ServicioSubImagen10.ImagenPublicada | imagen:'comunidad'"  alt="horario 24/7">
+                                <div class="contenido">
+                                    <h5 [innerHTML]="'COMUNIDAD.Comunidad1ServicioSubTitulo10.TextoPublicada' | translate"></h5>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soluciones para tu empresa  -->
+        <section class="myBackground2 spacing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-4">
+                        <h2 class="text-center font-weight-bold text-all my-0" [innerHTML]="'COMUNIDAD.Comunidad1SolucionesTitulo.TextoPublicada' | translate"></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 px-0 pr-lg-4">
+                        <div class="card border-0 myBackground2">
+                            <img class="card-img-top" [src]="objectTemporal.Comunidad1SolucionesSubImagen1.ImagenPublicada | imagen:'comunidad'"  class="rounded-0 comunidad-main-imagen" alt="espacios">
+                            <div class="py-lg-0 spacing-section-tablet card-body myBackground2 text-center"> 
+                                <h4 class="card-title text-center text-md-left font-weight-bold pb-4 pt-sm-0 pt-lg-4 my-0"  [innerHTML]="'COMUNIDAD.Comunidad1SolucionesSubTitulo1.TextoPublicada' | translate"></h4>
+                                <p class="card-text text-center text-md-left mb-4" [innerHTML]="'COMUNIDAD.Comunidad1SolucionesSubContent1.TextoPublicada' | translate">
+                                </p>
+                                <button class="btn-principal text-white"  (click)="routerEspacios()" [innerHTML]="'COMUNIDAD.Comunidad1SolucionesButton1.TextoPublicada' | translate"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 px-0 pl-lg-4">
+                        <div class="card border-0 myBackground2">
+                            <img class="card-img-top" [src]="objectTemporal.Comunidad1SolucionesSubImagen2.ImagenPublicada | imagen:'comunidad'" class="rounded-0 comunidad-main-imagen"  alt="salas">
+                            <div class="py-lg-0 spacing-section-tablet pb-0 card-body myBackground2 text-center"> 
+                                <h4 class="card-title text-center text-md-left font-weight-bold pb-4 pt-sm-0 pt-lg-4 my-0" [innerHTML]="'COMUNIDAD.Comunidad1SolucionesSubTitulo2.TextoPublicada' | translate"></h4>
+                                <p class="card-text text-center text-md-left" [innerHTML]="'COMUNIDAD.Comunidad1SolucionesSubContent2.TextoPublicada' | translate">
+                                </p>
+                                <button class="btn-principal text-white" (click)="routerSalas()" [innerHTML]="'COMUNIDAD.Comunidad1SolucionesButton2.TextoPublicada' | translate"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="myBackground spacing-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8">
+                            <div class="row">
+                                <div class="col-2 offset-5 col-md-2 offset-md-0 px-0 text-center">
+                                    <img [src]="objectTemporal.Comunidad1InvitamosImagenLogo.ImagenPublicada | imagen:'comunidad'" class="img-fluid w-50 pt-3 pt-md-2 pt-lg-2 pb-2 pb-md-0" alt="flecha">
+                                </div>
+                                <div class="col-10 offset-1 col-md-10 offset-md-0 px-0">
+                                    <p class="text-center text-md-left text-white h3" [innerHTML]="'COMUNIDAD.Comunidad1InvitamosTitulo.TextoPublicada' | translate">!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                            <button class="btn btn-primary btn-principal" (click)="routerEscribenos()" [innerHTML]="'COMUNIDAD.Comunidad1InvitamosButton.TextoPublicada' | translate"></button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </div>
+    <!-- Fin Inicio -->
+
+</div>

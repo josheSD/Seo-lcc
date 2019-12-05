@@ -1,0 +1,122 @@
+<div id="main">
+    
+    <div class="header-statico">
+        </div>
+        
+    <section class="contacto">
+        <div class="container">
+            <div class="row">
+                    <div class="col-12 py-3 py-md-5 text-center">
+                        <h2 class="px-3 font-weight-bold d-block d-md-none text-all pt-3 pt-md-0" [innerHTML]="'ESCRIBENOS.Titulo.TextoPublicada' | translate"></h2>
+                        <h1 class="px-3 font-weight-bold d-none d-md-block text-all pt-3 pt-md-0" [innerHTML]="'ESCRIBENOS.Titulo.TextoPublicada' | translate"></h1>
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-3 text-center">
+                        <p class="px-3 mx-1" [innerHTML]="'ESCRIBENOS.TituloContent.TextoPublicada' | translate">
+                        </p>
+                    </div>
+            </div>
+            <form class="px-3 px-lg-5 mx-lg-3" [formGroup]="FormContacto">
+                <!-- Campos que usa ZHO -->
+                <input type="text" style="display:none;" formControlName="xnQsjsdp" value='57e3bdefa5254b6f5c627d97c979ebc2e4e8db2bc08f85c424203d0cef452600'/>
+                <input type="hidden" formControlName="zc_gad" id="zc_gad" value=''/>
+                <input type="text" style="display:none;" formControlName="xmIwtLD" value='8bb8416e025f55a4802d9ed31a2f514d703c57ac49103a353efd46015b261c4f'/>
+                <input type="text" style="display:none;" formControlName="actionType" value='TGVhZHM='/>
+                <input type="text" style="display:none;" formControlName="returnURL" value='*'/>
+                <div style="display:none">
+                    <select formControlName="Lead Source">
+                        <option selected value='Web&#x20;Form'>Web Form</option>
+                    </select>
+                </div>
+
+                <div class="row px-lg-5 mx-lg-5 py-3 py-md-5">
+                    <div class="col-12 col-md-6 py-2">
+                        <p [innerHTML]="'ESCRIBENOS.FormularioNombre.TextoPublicada' | translate"></p>
+                        <input type="text" formControlName="nombre" class="w-100">
+                    </div>
+                    <div class="col-12 col-md-6 py-2">
+                        <p [innerHTML]="'ESCRIBENOS.FormularioApellido.TextoPublicada' | translate"></p>
+                        <input type="text" formControlName="apellido" class="w-100">
+                    </div>
+                    <div class="col-12 py-2">
+                        <p [innerHTML]="'ESCRIBENOS.FormularioCorreo.TextoPublicada' | translate"></p>
+                        <input type="text" formControlName="correo" class="w-100">
+                    </div>
+                    <div class="col-12 py-2">
+                        <p [innerHTML]="'ESCRIBENOS.FormularioEmpresa.TextoPublicada' | translate"></p>
+                        <input type="text" formControlName="empresa" class="w-100">
+                    </div>
+                    <div class="col-12 col-md-6 py-2">
+                        <p [innerHTML]="'ESCRIBENOS.FormularioCelular.TextoPublicada' | translate"></p>
+                        <input type="text" formControlName="celular" class="w-100">
+                    </div>
+                    <div class="col-12 col-md-6 py-2">
+                        <p [innerHTML]="'ESCRIBENOS.FormularioServicio.TextoPublicada' | translate"></p>
+                        <!-- <input type="text" class="w-100"> -->
+                        <select class="w-100" (change)="SelectServicio($event)">
+                            <option value=""><span class="textoPlomo">Seleccionar</span></option>
+                            <option value="Espacio Colaborativo">Espacio Colaborativo</option>
+                            <option value="Espacio Privado">Espacio Privado</option>
+                            <option value="Espacio Flex">Espacio Flex</option>
+                            <option value="Salas de Reuniones">Salas de Reuniones</option>
+                            <option value="Salas de Capacitaciones">Salas de Capacitaciones</option>
+                            <option value="Operadores Logísticos">Operadores Logísticos</option>
+                            <option value="Exportadores/Importadores">Exportadores/Importadores</option>
+                            <option value="Otras Instituciones">Otras Instituciones</option>
+                        </select>
+                    </div>
+                    <div class="col-12 py-2">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input " id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">
+                                        <span class="info-check" data-toggle="modal" data-target="#exampleModal" [innerHTML]="'ESCRIBENOS.FormularioTerminos.TextoPublicada' | translate"></span>
+                                </label>
+                            </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button class="btn-principal mt-3 mt-md-5" (click)="postFormulario()" ><span class="text-white" [innerHTML]="'ESCRIBENOS.FormularioButton.TextoPublicada' | translate"></span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <section class="container-fluid">
+        <div class="row mt-5 mt-md-5">
+            <div class="col-12 px-0 pt-md-4">
+                
+                <div style="height:300px !important">
+                    <iframe
+                    src="../../../assets/gmaps_gray.html"
+                    width="100%"
+                    height="100%"
+                    frameborder="0"
+                    style="border: 0;"
+                    >
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Términos y condiciones.</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p [innerHTML]="'ESCRIBENOS.FormularioTerminosContenido.TextoPublicada' | translate"></p>
+        </div>
+      </div>
+    </div>
+</div>
